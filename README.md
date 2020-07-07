@@ -1,3 +1,3 @@
-# yahoo-finance-scrapper
+# finance-stock-scrapper
 
-Got bored checking stock manually so why not create a scrapper to quickly identify list of potential stocks ?
+Scrapping the web
