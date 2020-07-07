@@ -1,8 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
-import re
-from json import loads
-
 from state import State
 
 def get_html(state: State):
@@ -11,10 +6,24 @@ def get_html(state: State):
         'lxml')
     script = soup.find("script", text=re.compile("root.App.main")).text
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
-    state.stores = data['context']['dispatcher']['stores']
+    state.url = data['context']['dispatcher']['stores']
 
+def manager(state: State):
+    """  
+    :param state: 
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
+    try:
+        result = get_html(state)
+        print("good")
+    except:
+        result = "nice try"
+        print("not good")
+    return result
 
+state = State()
+print(state.url)
+# manager(state = state)
 
-
-if __name__ == '__main__':
-    ticker = get_html(state = State())
