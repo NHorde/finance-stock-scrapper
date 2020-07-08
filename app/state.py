@@ -11,4 +11,3 @@ class State:
         :param event:
         :type even: dict
         """
-        # self.test = kwargs.get("test", "test")
