@@ -5,7 +5,7 @@ Created on Sat Feb  9 13:50:37 2019
 @author: Nicolas
 """
 
-import  requests
+import  equests
 from bs4 import BeautifulSoup
 import re
 from json import loads

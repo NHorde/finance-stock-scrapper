@@ -1,9 +1,15 @@
+import os
+import sys
+
 from bs4 import BeautifulSoup
 import requests
 import re
 from json import loads
 
-from state import State
+PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(PATH)
+
+from libs.state import State
 
 def get_html(state: State):
     soup = BeautifulSoup(
@@ -17,10 +23,9 @@ def get_html(state: State):
 def crawler_summary(state: State):
     try:
         state.quote_summary_store = state.url['QuoteSummaryStore']
-    except:
+    except ValueError("No data"):
         state.quote_summary_store = None
     print(state.quote_summary_store)
-    exit(1)
 
 def manager(state: State):
     """
@@ -38,6 +43,7 @@ def manager(state: State):
     print(result)
     return result
 
-state = State(test = 'test')
-get_html(state)
-# manager(state = state)
+
+state = State()
+
+manager(state = state)
