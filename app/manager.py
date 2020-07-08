@@ -12,12 +12,19 @@ def get_html(state: State):
     script = soup.find("script", text=re.compile("root.App.main")).text
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
     state.url = data['context']['dispatcher']['stores']
-    print(state.url)
-    return state.url
+    return crawler_summary(state=state)
+
+def crawler_summary(state: State):
+    try:
+        state.quote_summary_store = state.url['QuoteSummaryStore']
+    except:
+        state.quote_summary_store = None
+    print(state.quote_summary_store)
+
 
 def manager(state: State):
-    """  
-    :param state: 
+    """
+    :param state:
     :type state: State
     :rtype: dict
     :return: object
@@ -34,4 +41,3 @@ def manager(state: State):
 state = State(test = 'test')
 get_html(state)
 # manager(state = state)
-

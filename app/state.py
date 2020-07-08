@@ -6,9 +6,9 @@ class State:
         'ticker': None
     }
 
-    def __init__(self, test, **kwargs):
+    def __init__(self, **kwargs):
         """
         :param event:
         :type even: dict
         """
-        self.test = kwargs.get("test", "test")
+        # self.test = kwargs.get("test", "test")
