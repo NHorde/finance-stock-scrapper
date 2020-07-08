@@ -1,7 +1,4 @@
-from bs4 import BeautifulSoup
-import requests
-import re
-from json import loads
+
 
 
 class State:
@@ -9,8 +6,9 @@ class State:
         'ticker': None
     }
 
-    def __init__(self, **kwargs):
-        self.__dict__.update(self._defaults)
-        self.__dict__.update(kwargs)
-
-
+    def __init__(self, test, **kwargs):
+        """
+        :param event:
+        :type even: dict
+        """
+        self.test = kwargs.get("test", "test")
