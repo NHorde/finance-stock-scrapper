@@ -20,7 +20,7 @@ def crawler_summary(state: State):
     except:
         state.quote_summary_store = None
     print(state.quote_summary_store)
-
+    exit(1)
 
 def manager(state: State):
     """
