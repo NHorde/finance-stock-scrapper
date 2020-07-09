@@ -8,6 +8,12 @@ from libs.state import State
 
 
 def get_html(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     soup = BeautifulSoup(requests.get("https://finance.yahoo.com/quote/%s/key-statistics?p=%s" % ("AMZN", "AMZN")).content, "lxml")
     script = soup.find("script", text=re.compile("root.App.main")).text
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
@@ -16,6 +22,12 @@ def get_html(state: State):
 
 
 def crawler_quote_summary(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     try:
         state.quote_summary_store = state.url['QuoteSummaryStore']
     except ValueError:
@@ -24,6 +36,12 @@ def crawler_quote_summary(state: State):
 
 
 def crawler_financial_data(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     try:
         state.financial_data = state.quote_summary_store['financialData']
     except ValueError:
@@ -32,6 +50,12 @@ def crawler_financial_data(state: State):
 
 
 def get_current_price(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     try:
         state.current_price = state.financial_data['currentPrice']['fmt']
     except ValueError:
@@ -40,6 +64,12 @@ def get_current_price(state: State):
 
 
 def crawler_default_key_statistics(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     try:
         state.default_key_statistics = state.quote_summary_store['defaultKeyStatistics']
     except ValueError:
@@ -48,6 +78,12 @@ def crawler_default_key_statistics(state: State):
 
 
 def get_price_to_book(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     try:
         state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
     except ValueError:
@@ -56,6 +92,12 @@ def get_price_to_book(state: State):
 
 
 def status(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
     state.status = 100
     return state
 
