@@ -1,6 +1,6 @@
 class State:
     _defaults = {
-        'ticker': None
+        'status': 400
     }
 
     def __init__(self, **kwargs):

@@ -6,3 +6,4 @@ from libs.state import State
 
 
 state = manager(state = State())
+print(state.status)

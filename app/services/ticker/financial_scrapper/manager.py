@@ -38,6 +38,7 @@ def get_current_price(state: State):
         state.current_price = None
     return crawler_default_key_statistics(state=state)
 
+
 def crawler_default_key_statistics(state: State):
     try:
         state.default_key_statistics = state.quote_summary_store['defaultKeyStatistics']
@@ -45,11 +46,17 @@ def crawler_default_key_statistics(state: State):
         state.default_key_statistics = None
     return get_price_to_book(state=state)
 
+
 def get_price_to_book(state: State):
     try:
         state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
     except ValueError:
         state.price_to_book = None
+    return status(state=state)
+
+
+def status(state: State):
+    state.status = 100
     return state
 
 
@@ -62,11 +69,6 @@ def manager(state: State):
     """
     try:
         result = get_html(state)
-        print("good")
     except:
-        result = "nice try"
-        print("not good")
-    # for item in state.default_key_statistics:
-    #     print(item)
-    print(state.price_to_book)
+        result = state
     return result
