@@ -1,6 +1,3 @@
-
-
-
 class State:
     _defaults = {
         'ticker': None

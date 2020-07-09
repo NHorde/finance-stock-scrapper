@@ -1,14 +1,8 @@
-import os
-import sys
-
 from bs4 import BeautifulSoup
 import requests
 import re
 import json
 from json import loads
-
-PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(PATH)
 
 from libs.state import State
 
@@ -39,9 +33,23 @@ def crawler_financial_data(state: State):
 
 def get_current_price(state: State):
     try:
-        state.current_price = state.financial_data['currentPrice']['raw']
+        state.current_price = state.financial_data['currentPrice']['fmt']
     except ValueError:
         state.current_price = None
+    return crawler_default_key_statistics(state=state)
+
+def crawler_default_key_statistics(state: State):
+    try:
+        state.default_key_statistics = state.quote_summary_store['defaultKeyStatistics']
+    except ValueError:
+        state.default_key_statistics = None
+    return get_price_to_book(state=state)
+
+def get_price_to_book(state: State):
+    try:
+        state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
+    except ValueError:
+        state.price_to_book = None
     return state
 
 
@@ -58,13 +66,7 @@ def manager(state: State):
     except:
         result = "nice try"
         print("not good")
-    print(result)
+    # for item in state.default_key_statistics:
+    #     print(item)
+    print(state.price_to_book)
     return result
-
-
-state = State()
-state = manager(state = state)
-print(state.current_price)
-# for name in state.financial_data:
-#     print(name)
-# print(json.dumps(state.financial_data, indent=3, default=str))
