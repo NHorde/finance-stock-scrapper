@@ -93,10 +93,10 @@ def get_price_to_book(state: State):
 
 def status(state: State):
     """
-    :param state:
-    :type state: State
+    :param state: object
+    :type state: class
     :rtype: dict
-    :return: object
+    :return: state
     """
     state.status = 100
     return state
