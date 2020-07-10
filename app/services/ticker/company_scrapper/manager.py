@@ -9,10 +9,10 @@ def manager
     col = ["Symbol", "Name", "MarketCap", "IPOyear", "Sector", "industry"]
     df_nasdaq = pd.read_csv(url_nasdaq, usecols=col)
     df_amex = pd.read_csv(url_amex, usecols=col)
-
     df_nyse = pd.read_csv(url_nyse, usecols=col)
+
     df = pd.concat([df_nasdaq, df_amex, df_nyse])
 
     PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-    df.to_csv(PATH + '/data/test.csv')
+    df.to_csv(PATH + '/data/ticker_list.csv')
 
