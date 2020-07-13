@@ -15,4 +15,5 @@ def manager():
 
     PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
     df.to_csv(PATH + '/app/data/ticker_list.csv')
+    return df
 
