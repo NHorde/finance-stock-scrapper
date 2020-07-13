@@ -3,7 +3,7 @@ from services.company_scrapper.manager import manager as manager_company_scrappe
 
 from libs.state import State
 
-def get_company_list():
+def get_company_list(state: State):
     try:
         manager_company_scrapper()
         print("Company list scrapped with success")
@@ -12,11 +12,12 @@ def get_company_list():
     return get_ticker_test(state = state)
 
 
-def get_ticker_test(state : State):
-    state = manager_financial_scrapper(state = State())
+def get_ticker_test(state: State):
+    state = manager_financial_scrapper(state =state)
     print(state.status)
-    return test
+    return state
 
-def manager(state: State):
-    get_company_list()
+def manager():
+    state = State()
+    get_company_list(state = state)
 
