@@ -35,6 +35,7 @@ def crawler_quote_summary(state: State):
     """
     try:
         state.quote_summary_store = state.url['QuoteSummaryStore']
+        LOGGER.info('Successfully retrieving QuoteSummaryStore list')
     except ValueError:
         state.quote_summary_store = None
     return crawler_financial_data(state=state)
@@ -49,6 +50,7 @@ def crawler_financial_data(state: State):
     """
     try:
         state.financial_data = state.quote_summary_store['financialData']
+        LOGGER.info("Successfully retrieving financialData")
     except ValueError:
         state.financial_data = None
     return get_current_price(state=state)
@@ -63,6 +65,7 @@ def get_current_price(state: State):
     """
     try:
         state.current_price = state.financial_data['currentPrice']['fmt']
+        LOGGER.info("Current company price scrapped")
     except ValueError:
         state.current_price = None
     return crawler_default_key_statistics(state=state)
@@ -77,6 +80,7 @@ def crawler_default_key_statistics(state: State):
     """
     try:
         state.default_key_statistics = state.quote_summary_store['defaultKeyStatistics']
+
     except ValueError:
         state.default_key_statistics = None
     return get_price_to_book(state=state)
