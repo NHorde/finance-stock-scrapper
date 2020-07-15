@@ -65,7 +65,7 @@ def get_current_price(state: State):
     """
     try:
         state.current_price = state.financial_data['currentPrice']['fmt']
-        LOGGER.info("Current company price scrapped")
+        LOGGER.info(f"Current company price: {state.current_price}")
     except ValueError:
         state.current_price = None
     return crawler_default_key_statistics(state=state)
@@ -95,6 +95,7 @@ def get_price_to_book(state: State):
     """
     try:
         state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
+        LOGGER.info(f"Price to book: {state.price_to_book}")
     except ValueError:
         state.price_to_book = None
     return status(state=state)
