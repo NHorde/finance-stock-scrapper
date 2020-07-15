@@ -5,7 +5,9 @@ import json
 from json import loads
 
 from libs.state import State
+from libs.logger import BASE_LOGGER
 
+LOGGER = BASE_LOGGER.getChild(__name__)
 
 def get_html(state: State):
     """
@@ -18,6 +20,9 @@ def get_html(state: State):
     script = soup.find("script", text=re.compile("root.App.main")).text
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
     state.url = data['context']['dispatcher']['stores']
+
+    LOGGER.info("Successfully get URL for ticker")
+
     return crawler_quote_summary(state=state)
 
 
