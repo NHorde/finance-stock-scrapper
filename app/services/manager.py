@@ -8,14 +8,17 @@ from libs.state import State
 from libs.logger import BASE_LOGGER
 
 LOGGER = BASE_LOGGER.getChild(__name__)
-LOGGER.info("test")
+
 
 def get_company_list(state: State):
+    LOGGER.info("Beginning of company list scrap")
     try:
+        LOGGER.info("Downloading company list")
         manager_company_scrapper()
-        print("Company list scrapped with success")
+        LOGGER.info("Company list scrapped with success")
     except:
-        print("Company list not successfully scrapped")
+        LOGGER.info("Company list not successfully scrapped")
+
     return get_ticker_information(state = state)
 
 
@@ -29,6 +32,7 @@ def get_ticker_information(state: State):
 
 
 def manager():
+    LOGGER.info("Start of the script")
     state = State()
     get_company_list(state = state)
 
