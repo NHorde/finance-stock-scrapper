@@ -5,6 +5,10 @@ from services.financial_scrapper.manager import manager as manager_financial_scr
 from services.company_scrapper.manager import manager as manager_company_scrapper
 
 from libs.state import State
+from libs.logger import BASE_LOGGER
+
+LOGGER = BASE_LOGGER.getChild(__name__)
+LOGGER.info("test")
 
 def get_company_list(state: State):
     try:
