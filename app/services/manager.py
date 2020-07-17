@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 from services.financial_scrapper.manager import manager as manager_financial_scrapper
-from services.company_scrapper.manager import manager as manager_company_scrapper
+from services.company.scrapper.manager import manager as manager_company_scrapper
 
 from libs.state import State
 from libs.logger import BASE_LOGGER
@@ -14,7 +14,7 @@ def get_company_list(state: State):
     LOGGER.info("Beginning of company list scrap")
     try:
         LOGGER.info("Downloading company list")
-        # manager_company_scrapper()
+        manager_company_scrapper(state= state)
         LOGGER.info("Company list scrapped with success")
     except:
         LOGGER.info("Company list not successfully scrapped")
