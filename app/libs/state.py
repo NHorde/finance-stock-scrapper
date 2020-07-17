@@ -1,3 +1,5 @@
+from libs.files import FileManager
+
 class State:
     _defaults = {
         'status': 400
@@ -8,3 +10,4 @@ class State:
         :param event:
         :type even: dict
         """
+        self.files: FileManager = FileManager(**kwargs)

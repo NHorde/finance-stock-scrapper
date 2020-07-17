@@ -1,5 +1,12 @@
-import logging
-logging.basicConfig(level=logging.DEBUG)
+import time
+import timeout_decorator
 
-logging.warning('Watch out!')  # will print a message to the console
-logging.info('I told you so')  # will not print anything
+@timeout_decorator.timeout(5)
+def mytest():
+    print ("Start")
+    for i in range(1,10):
+        time.sleep(1)
+        print ("%d seconds have passed" % i)
+
+if __name__ == '__main__':
+    mytest()
