@@ -23,12 +23,12 @@ def manager(state: State)
     col = ["Symbol", "Name", "MarketCap", "IPOyear", "Sector", "industry"]
     stock_exchange = ["nasdaq", "amex", "nyse"]
 
-    LOGGER.info("Reading all .csv files")
+
 
 
     for market in stock_exchange:
-        state.files.market = scrap_company_list(url="url_+url"+market)
-
+        state.files.market = scrap_company_list(url="url_"+url)
+    LOGGER.info("Reading all .csv files")
     exit(1)
     df_amex = pd.read_csv(url_amex, usecols=col)
     df_nyse = pd.read_csv(url_nyse, usecols=col)
