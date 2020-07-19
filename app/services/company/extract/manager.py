@@ -24,8 +24,10 @@ def extract(state: State):
     scrap_company_list(url=url, path=PATH)
 
     LOGGER.info("List of all tickers downloaded with success")
-    return state
+    return status_extract(state=state)
 
+def status_extract(state: State):
+    state.events.extract = 100
 
 def manager(state: State):
     extract(state=state)
