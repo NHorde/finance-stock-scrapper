@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 from services.financial_scrapper.manager import manager as manager_financial_scrapper
-from services.company.scrapper.manager import manager as manager_company_scrapper
+from services.company.extract.manager import manager as manager_company_scrapper
 
 from libs.state import State
 from libs.logger import BASE_LOGGER
