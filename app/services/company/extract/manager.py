@@ -10,7 +10,7 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 
 
 
-@timeout_decorator.timeout(5)
+@timeout_decorator.timeout(10)
 def scrap_company_list(url: str, path: str):
     try:
         df = urllib.request.urlretrieve(url, path + "/data/ticker_list.csv")
