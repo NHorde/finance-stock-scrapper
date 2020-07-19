@@ -8,12 +8,12 @@ import urllib.request
 
 LOGGER = BASE_LOGGER.getChild(__name__)
 
-urllib.request.urlretrieve (v, "Ktest.csv")
+
 
 @timeout_decorator.timeout(5)
-def scrap_company_list(url: str, col: list):
+def scrap_company_list(url: str, path: str):
     try:
-        df = pd.read_csv(url, usecols=col)
+        df = urllib.request.urlretrieve(url, path + "/data/ticker_list.csv")
     except Exception as e:
         df = []
         LOGGER.warning(f"URL {url} not working, error: {e}")
@@ -24,19 +24,13 @@ def scrap_company_list(url: str, col: list):
 
 
 def extract(state: State):
-
-    url_nasdaq = "https://dumbstockapi.com/stock?format=csv&countries=US"
-    col = ["Symbol", "Name", "MarketCap", "IPOyear", "Sector", "industry"]
-
-    state.files.nasdaq = scrap_company_list(url= url_nasdaq, col = col)
-    state.files.amex = scrap_company_list(url=url_amex, col=col)
-    state.files.nyse = scrap_company_list(url=url_nyse, col=col)
-    LOGGER.info("Reading all .csv files")
-    # exit()
-    df_amex = pd.read_csv(url_amex, usecols=col)
-    df_nyse = pd.read_csv(url_nyse, usecols=col)
+    url = "https://dumbstockapi.com/stock?format=csv&countries=US"
     PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+    scrap_company_list(url=url, path=PATH)
+    LOGGER.info("List of all tickers downloaded with success")
+    # exit()
 
+    print(PATH)
     df = pd.concat([df_nasdaq, df_amex, df_nyse])
     df.to_csv(PATH + '/app/data/ticker_list.csv')
     # function_appl
