@@ -22,8 +22,6 @@ def scrap_company_list(url: str, path: str):
 def extract(state: State):
     url = "https://dumbstockapi.com/stock?format=csv&countries=US"
     scrap_company_list(url=url, path=PATH)
-
-    LOGGER.info("List of all tickers downloaded with success")
     return status_extract(state=state)
 
 def status_extract(state: State):

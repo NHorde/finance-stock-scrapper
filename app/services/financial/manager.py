@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import re
-import json
 from json import loads
 
 from libs.state import State

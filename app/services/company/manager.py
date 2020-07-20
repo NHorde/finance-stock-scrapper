@@ -10,19 +10,19 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 
 def extract_company_list(state: State):
     manager_company_extract(state=state)
-    LOGGER.info("Company extract completed")
+    LOGGER.info(f"Company extract completed | Status: {state.events.extract_company_list}")
     return load_company_list(state=state)
 
 
 def load_company_list(state: State):
     manager_company_load(state=state)
-    LOGGER.info("Company load completed")
+    LOGGER.info(f"Company load completed | Status: {state.events.load_company_list}")
     return transform_company_list(state=state)
 
 
 def transform_company_list(state: State):
     manager_company_transform(state=state)
-    LOGGER.info("Company transform completed")
+    LOGGER.info(f"Company transform completed | Status: {state.events.transform_company_list}")
     return etl_status(state=state)
 
 
