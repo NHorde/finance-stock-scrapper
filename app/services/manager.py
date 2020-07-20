@@ -8,12 +8,24 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 
 
 def execute_etl(state: State):
+    """
+    Call ETL manager script (extract, transform load), logger is included within the company library
+
+    :param state: state
+    :return: call ticker financial scrapper
+    """
     manager_etl(state=state)
     LOGGER.info(f"ETL completed | Status: {state.events.etl_company_list}")
     return get_ticker_information(state=state)
 
 
 def get_ticker_information(state: State):
+    """
+    Call financial scrapper
+
+    :param state: state
+    :return: end of the script
+    """
     state = manager_financial_scrapper(state = state)
     LOGGER.info(f"Status of ticker: {state.status}")
     state.files.test = "test"
