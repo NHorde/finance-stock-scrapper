@@ -27,7 +27,7 @@ def extract(state: State):
     return status_extract(state=state)
 
 def status_extract(state: State):
-    state.events.download_company_list = 100
+    state.events.extract_company_list = 100
 
 
 def manager(state: State):

@@ -4,4 +4,7 @@ class Event:
         :param event:
         :type even: dict
         """
-        self.download_company_list = 400
+        self.extract_company_list = 400
+        self.load_company_list = 400
+        self.transform_company_list = 400
+        self.etl_company_list = 400

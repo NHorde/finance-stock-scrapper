@@ -23,6 +23,12 @@ def load_company_list(state: State):
 def transform_company_list(state: State):
     manager_company_transform(state=state)
     LOGGER.info("Company transform completed")
+    return etl_status(state=state)
+
+
+def etl_status(state: State):
+    if state.events.extract_company_list + state.events.load_company_list + state.events.transform_company_list == 300:
+        state.events.etl_company_list = 100
 
 
 def manager(state: State):
