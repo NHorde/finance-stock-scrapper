@@ -10,10 +10,11 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 
 def get_html(state: State):
     """
+    Scrap financial information for a given ticker by retrieving the URL. The HTML is a maze so the idea is to store all paths into many attributes within the
+    state.ticker object and crawl from there
+
     :param state:
-    :type state: State
-    :rtype: dict
-    :return: object
+    :return:
     """
     soup = BeautifulSoup(requests.get("https://finance.yahoo.com/quote/%s/key-statistics?p=%s" % ("AMZN", "AMZN")).content, "lxml")
     script = soup.find("script", text=re.compile("root.App.main")).text
