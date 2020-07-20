@@ -11,13 +11,11 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 
 
 def get_company_list(state: State):
-    LOGGER.info("Beginning of company list scrap")
     try:
-        LOGGER.info("Downloading company list")
         manager_company_scrapper(state= state)
         LOGGER.info("Company list scrapped with success")
-    except:
-        LOGGER.info("Company list not successfully scrapped")
+    except Except as e:
+        LOGGER.warning(f"Company list not successfully scrapped: {e}")
 
     return get_ticker_information(state = state)
 
