@@ -10,12 +10,12 @@ def read_company_list(state: State):
     try:
         state.files.company_list = pd.read_csv(PATH + "/data/ticker_list.csv")
     except Exception as e:
-        state.files.company_list = None]
+        state.files.company_list = None
         LOGGER.warning(f"No company data loader, error: {e}")
     return status_read_company_list(state=state)
 
-def status_read_company_list(state: State)
+def status_read_company_list(state: State):
     state.events.load_company_list = 100
 
-def manager(state: State)
+def manager(state: State):
     read_company_list(state=state)

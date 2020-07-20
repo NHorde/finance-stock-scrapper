@@ -3,6 +3,7 @@ import pandas as pd
 
 from services.financial_scrapper.manager import manager as manager_financial_scrapper
 from services.company.extract.manager import manager as manager_company_scrapper
+from services.company.load.manager import manager as manager_load
 
 from libs.state import State
 from libs.logger import BASE_LOGGER
@@ -10,14 +11,21 @@ from libs.logger import BASE_LOGGER
 LOGGER = BASE_LOGGER.getChild(__name__)
 
 
-def get_company_list(state: State):
+def download_company_list(state: State):
     try:
-        manager_company_scrapper(state= state)
+        manager_company_scrapper(state=state)
         LOGGER.info("Company list scrapped with success")
     except Except as e:
         LOGGER.warning(f"Company list not successfully scrapped: {e}")
+    return load_company_list(state=state)
 
-    return get_ticker_information(state = state)
+
+def load_company_list(state: State):
+    try:
+        manager_load(state=state)
+    except Except as e:
+        LOGGER.warning(f"Could not load company list, error: {e}")
+    return get_ticker_information(state=state)
 
 
 def get_ticker_information(state: State):
@@ -32,5 +40,5 @@ def get_ticker_information(state: State):
 def manager():
     LOGGER.info("Start of the script")
     state = State()
-    get_company_list(state = state)
+    download_company_list(state = state)
 
