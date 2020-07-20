@@ -38,6 +38,7 @@ def extract(state: State):
 def status_extract(state: State):
     """
     Return 100 if extract was successful, remain as 400 by default otherwise
+
     :param state: string
     :return: dataframe
     """
