@@ -4,3 +4,4 @@ class Event:
         :param event:
         :type even: dict
         """
+        self.download_company_list = 400
