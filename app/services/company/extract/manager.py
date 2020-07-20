@@ -1,7 +1,8 @@
-import os
+
 import timeout_decorator
 from libs.state import State
 from libs.logger import BASE_LOGGER
+from setup import PATH
 
 import urllib.request
 
@@ -20,7 +21,6 @@ def scrap_company_list(url: str, path: str):
 
 def extract(state: State):
     url = "https://dumbstockapi.com/stock?format=csv&countries=US"
-    PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
     scrap_company_list(url=url, path=PATH)
 
     LOGGER.info("List of all tickers downloaded with success")
