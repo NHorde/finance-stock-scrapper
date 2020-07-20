@@ -20,6 +20,7 @@ def scrap_company_list(url: str, path: str):
     """
     try:
         urllib.request.urlretrieve(url, path + "/data/ticker_list.csv")
+        state.events.extract_company_list = 100
     except Exception as e:
         LOGGER.warning(f"URL {url} not working, error: {e}")
 
@@ -33,16 +34,6 @@ def extract(state: State):
     """
     url = "https://dumbstockapi.com/stock?format=csv&countries=US"
     scrap_company_list(url=url, path=PATH)
-    return status_extract(state=state)
-
-def status_extract(state: State):
-    """
-    Return 100 if extract was successful, remain as 400 by default otherwise
-
-    :param state: string
-    :return: dataframe
-    """
-    state.events.extract_company_list = 100
 
 
 def manager(state: State):

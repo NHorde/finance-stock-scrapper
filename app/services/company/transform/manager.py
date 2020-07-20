@@ -11,12 +11,12 @@ def filter_unique_ticker(state: State):
     :param state:
     :return: Call transform status function
     """
-    state.output = state.files.company_list[["ticker", 'name']].drop_duplicates()
-    return status_transform(state=state)
-
-
-def status_transform(state: State):
-    state.events.transform_company_list = 100
+    try:
+        state.output = state.files.company_list[["ticker", 'name']].drop_duplicates()
+        state.events.transform_company_list = 100
+    except Except as e:
+        state.output = None
+        LOGGER.warning(f"Could not transform company data , error: {e}")
 
 
 def manager(state: State):
