@@ -86,33 +86,33 @@ def parse_price_to_book_quarter(state: State):
         except ValueError:
             state.price_to_book = None
 
-    LOGGER.info(f"{state.ticker.symbol} | Current price to book list: {state.ticker.price_to_book_list}")
+    LOGGER.info(f"{state.ticker.symbol} | Price to book value list: {state.ticker.price_to_book_list}")
 
     # Scrapping Q1
     try:
         state.ticker.price_to_book_q1 = state.ticker.price_to_book_list[3]
-        LOGGER.info(f"{state.ticker.symbol} | Current price to book list Q1: {state.ticker.price_to_book_q1}")
+        LOGGER.info(f"{state.ticker.symbol} | Price to book value Q1: {state.ticker.price_to_book_q1}")
     except:
         state.ticker.price_to_book_q1 = None
 
     # Scrapping Q2
     try:
         state.ticker.price_to_book_q2 = state.ticker.price_to_book_list[2]
-        LOGGER.info(f"{state.ticker.symbol} | Current price to book list Q2: {state.ticker.price_to_book_q2}")
+        LOGGER.info(f"{state.ticker.symbol} | Price to book value Q2: {state.ticker.price_to_book_q2}")
     except:
         state.ticker.price_to_book_q2 = None
 
     # Scrapping Q3
     try:
         state.ticker.price_to_book_q3 = state.ticker.price_to_book_list[1]
-        LOGGER.info(f"{state.ticker.symbol} | Current price to book list Q1: {state.ticker.price_to_book_q3}")
+        LOGGER.info(f"{state.ticker.symbol} | Price to book value Q3: {state.ticker.price_to_book_q3}")
     except:
         state.ticker.price_to_book_q3 = None
 
     # Scrapping Q4
     try:
         state.ticker.price_to_book_q4 = state.ticker.price_to_book_list[0]
-        LOGGER.info(f"{state.ticker.symbol} | Current price to book list Q1: {state.ticker.price_to_book_q4}")
+        LOGGER.info(f"{state.ticker.symbol} | Price to book value Q4: {state.ticker.price_to_book_q4}")
     except:
         state.ticker.price_to_book_q4 = None
 
