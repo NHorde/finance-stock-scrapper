@@ -21,7 +21,7 @@ def get_html(state: State):
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
     state.url = data['context']['dispatcher']['stores']
 
-    LOGGER.info("Successfully get URL for ticker")
+    LOGGER.info("AMZN | Successfully get URL for ticker")
 
     return crawler_quote_summary(state=state)
 
