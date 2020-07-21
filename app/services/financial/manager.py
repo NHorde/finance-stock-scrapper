@@ -39,10 +39,10 @@ def parse_current_price(state: State):
         LOGGER.info(f"{state.ticker.symbol} | Current company price: {state.ticker.current_price}")
     except ValueError:
         state.current_price = None
-    return parse_price_to_book(state=state)
+    return parse_current_price_to_book(state=state)
 
 
-def parse_price_to_book(state: State):
+def parse_current_price_to_book(state: State):
     """
     :param state:
     :type state: State
@@ -50,14 +50,29 @@ def parse_price_to_book(state: State):
     :return: object
     """
     try:
-        state.ticker.price_to_book = state.url['QuoteSummaryStore']["defaultKeyStatistics"]['priceToBook']['fmt']
-        LOGGER.info(f"{state.ticker.symbol} | Price to book: {state.ticker.price_to_book}")
+        state.ticker.current_price_to_book = state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"]
+        LOGGER.info(f"{state.ticker.symbol} | Current price to book value: {state.ticker.current_price_to_book}")
     except ValueError:
         state.price_to_book = None
-    return status(state=state)
+    return parse_current_price_to_book_date(state=state)
 
 
-def status(state: State):
+def parse_current_price_to_book_date(state: State):
+    """
+    :param state:
+    :type state: State
+    :rtype: dict
+    :return: object
+    """
+    try:
+        state.ticker.current_price_to_book_date = state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["asOfDate"]
+        LOGGER.info(f"{state.ticker.symbol} | Current price to book date: {state.ticker.current_price_to_book_date}")
+    except ValueError:
+        state.price_to_book = None
+    return status_ticker(state=state)
+
+
+def status_ticker(state: State):
     """
     :param state: object
     :type state: class
@@ -91,8 +106,8 @@ def manager(state: State):
     # symbol
     # pageViews
 
-    print(state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"])
-    print(state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["asOfDate"])
+    print(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"])
+
     # ["trailingPbRatio"]
     # import json
     # print(json.dumps(state.url, indent=3))

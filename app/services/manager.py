@@ -29,9 +29,8 @@ def get_ticker_information(state: State):
     :return: end of the script
     """
     state = manager_financial_scrapper(state = state)
-    LOGGER.info(f"Status of ticker: {state.status}")
+
     state.files.test = "test"
-    LOGGER.info(f"Checking {state.files.test}")
     return state
 
 
