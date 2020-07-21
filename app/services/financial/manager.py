@@ -8,7 +8,7 @@ from libs.logger import BASE_LOGGER
 
 LOGGER = BASE_LOGGER.getChild(__name__)
 
-def get_html(state: State):
+def request_html(state: State):
     """
     Scrap financial information for a given ticker by retrieving the URL. The HTML is a maze so the idea is to store all paths into many attributes within the
     state.ticker object and crawl from there
@@ -24,10 +24,10 @@ def get_html(state: State):
 
     LOGGER.info(f"{state.ticker.symbol} | Successfully get URL")
 
-    return crawler_quote_summary(state=state)
+    return parse_current_price(state=state)
 
 
-def crawler_quote_summary(state: State):
+def parse_current_price(state: State):
     """
     :param state:
     :type state: State
@@ -35,44 +35,14 @@ def crawler_quote_summary(state: State):
     :return: object
     """
     try:
-        state.quote_summary_store = state.url['QuoteSummaryStore']
-        LOGGER.info(f"{state.ticker.symbol} | Successfully retrieving QuoteSummaryStore list")
-    except ValueError:
-        state.quote_summary_store = None
-    return crawler_financial_data(state=state)
-
-
-def crawler_financial_data(state: State):
-    """
-    :param state:
-    :type state: State
-    :rtype: dict
-    :return: object
-    """
-    try:
-        state.financial_data = state.quote_summary_store['financialData']
-        LOGGER.info(f"{state.ticker.symbol} | Successfully retrieving financialData")
-    except ValueError:
-        state.financial_data = None
-    return get_current_price(state=state)
-
-
-def get_current_price(state: State):
-    """
-    :param state:
-    :type state: State
-    :rtype: dict
-    :return: object
-    """
-    try:
-        state.current_price = state.financial_data['currentPrice']['fmt']
-        LOGGER.info(f"{state.ticker.symbol} | Current company price: {state.current_price}")
+        state.ticker.current_price = state.url['QuoteSummaryStore']['financialData']['currentPrice']['fmt']
+        LOGGER.info(f"{state.ticker.symbol} | Current company price: {state.ticker.current_price}")
     except ValueError:
         state.current_price = None
-    return crawler_default_key_statistics(state=state)
+    return parse_price_to_book(state=state)
 
 
-def crawler_default_key_statistics(state: State):
+def parse_price_to_book(state: State):
     """
     :param state:
     :type state: State
@@ -80,23 +50,8 @@ def crawler_default_key_statistics(state: State):
     :return: object
     """
     try:
-        state.default_key_statistics = state.quote_summary_store['defaultKeyStatistics']
-
-    except ValueError:
-        state.default_key_statistics = None
-    return get_price_to_book(state=state)
-
-
-def get_price_to_book(state: State):
-    """
-    :param state:
-    :type state: State
-    :rtype: dict
-    :return: object
-    """
-    try:
-        state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
-        LOGGER.info(f"{state.ticker.symbol} | Price to book: {state.price_to_book}")
+        state.ticker.price_to_book = state.url['QuoteSummaryStore']["defaultKeyStatistics"]['priceToBook']['fmt']
+        LOGGER.info(f"{state.ticker.symbol} | Price to book: {state.ticker.price_to_book}")
     except ValueError:
         state.price_to_book = None
     return status(state=state)
@@ -109,7 +64,8 @@ def status(state: State):
     :rtype: dict
     :return: state
     """
-    state.status = 100
+    state.ticker.status = 100
+    LOGGER.info(f"{state.ticker.symbol} | Scrapping status: {state.ticker.status}")
     return state
 
 
@@ -122,7 +78,33 @@ def manager(state: State):
     """
     try:
         state.ticker.symbol = "AMZN"
-        result = get_html(state)
+        result = request_html(state)
     except:
         result = state
+    # defaultKeyStatistics
+    # financialsTemplate
+    # price
+    # financialData
+    # quoteType
+    # calendarEvents
+    # summaryDetail
+    # symbol
+    # pageViews
+
+    print(state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"])
+    print(state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["asOfDate"])
+    # ["trailingPbRatio"]
+    # import json
+    # print(json.dumps(state.url, indent=3))
+    #
+    # with open('data.txt', 'w') as outfile:
+    #     json.dump(state.url, outfile, indent=3)
     return result
+
+# QuoteTimeSeriesStore
+# timeSeries
+# quarterlyEnterprisesValueEBITDARatio
+# trailingPbRatio
+# 3
+# reportedValue
+# fmt
