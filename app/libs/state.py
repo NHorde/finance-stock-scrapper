@@ -1,5 +1,6 @@
 from libs.files import FileManager
 from libs.event import Event
+from libs.ticker import Ticker
 
 class State:
     _defaults = {
@@ -13,3 +14,4 @@ class State:
         """
         self.files: FileManager = FileManager(**kwargs)
         self.events: Events = Event(**kwargs)
+        self.ticker : Ticker = Ticker(**kwargs)
