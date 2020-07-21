@@ -17,12 +17,16 @@ def request_html(state: State):
     :param: string
     :return:
     """
-    soup = BeautifulSoup(requests.get(f"https://finance.yahoo.com/quote/{state.ticker.symbol}/key-statistics?p={state.ticker.symbol}").content, "lxml")
-    script = soup.find("script", text=re.compile("root.App.main")).text
-    data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
-    state.url = data['context']['dispatcher']['stores']
+    try:
+        soup = BeautifulSoup(requests.get(f"https://finance.yahoo.com/quote/{state.ticker.symbol}/key-statistics?p={state.ticker.symbol}").content, "lxml")
+        script = soup.find("script", text=re.compile("root.App.main")).text
+        data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
+        state.url = data['context']['dispatcher']['stores']
 
-    LOGGER.info(f"{state.ticker.symbol} | Successfully get URL")
+        LOGGER.info(f"{state.ticker.symbol} | Successfully get URL")
+    except Except as e:
+        state.url = []
+        LOGGER.info(f"{state.ticker.symbol} | Could not scrap URL")
 
     return parse_current_price(state=state)
 
@@ -34,11 +38,19 @@ def parse_current_price(state: State):
     :rtype: dict
     :return: object
     """
+    # print(state.url)
+    # print(state.url['QuoteSummaryStore']['financialData']['currentPrice']['fmt'])
+
+    # for i in state.url:
+    #     print(i)
+
+    print(state.url['navStore'])
     try:
         state.ticker.current_price = state.url['QuoteSummaryStore']['financialData']['currentPrice']['fmt']
         LOGGER.info(f"{state.ticker.symbol} | Current company price: {state.ticker.current_price}")
     except ValueError:
         state.current_price = None
+        LOGGER.WARNING(f"{state.ticker.symbol} | Current company price: {state.ticker.current_price}")
     return parse_current_price_to_book(state=state)
 
 
@@ -138,7 +150,7 @@ def manager(state: State):
     :return: object
     """
     try:
-        state.ticker.symbol = "AMZN"
+        state.ticker.symbol = "marchepas"
         result = request_html(state)
     except:
         result = state
