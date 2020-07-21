@@ -14,14 +14,15 @@ def get_html(state: State):
     state.ticker object and crawl from there
 
     :param state:
+    :param: string
     :return:
     """
-    soup = BeautifulSoup(requests.get("https://finance.yahoo.com/quote/%s/key-statistics?p=%s" % ("AMZN", "AMZN")).content, "lxml")
+    soup = BeautifulSoup(requests.get(f"https://finance.yahoo.com/quote/{state.symbol}/key-statistics?p={state.symbol}").content, "lxml")
     script = soup.find("script", text=re.compile("root.App.main")).text
     data = loads(re.search("root.App.main\s+=\s+(\{.*\})", script).group(1))
     state.url = data['context']['dispatcher']['stores']
 
-    LOGGER.info("AMZN | Successfully get URL for ticker")
+    LOGGER.info(f"{state.symbol} | Successfully get URL")
 
     return crawler_quote_summary(state=state)
 
@@ -35,7 +36,7 @@ def crawler_quote_summary(state: State):
     """
     try:
         state.quote_summary_store = state.url['QuoteSummaryStore']
-        LOGGER.info('Successfully retrieving QuoteSummaryStore list')
+        LOGGER.info(f"{state.symbol} | Successfully retrieving QuoteSummaryStore list")
     except ValueError:
         state.quote_summary_store = None
     return crawler_financial_data(state=state)
@@ -50,7 +51,7 @@ def crawler_financial_data(state: State):
     """
     try:
         state.financial_data = state.quote_summary_store['financialData']
-        LOGGER.info("Successfully retrieving financialData")
+        LOGGER.info(f"{state.symbol} | Successfully retrieving financialData")
     except ValueError:
         state.financial_data = None
     return get_current_price(state=state)
@@ -65,7 +66,7 @@ def get_current_price(state: State):
     """
     try:
         state.current_price = state.financial_data['currentPrice']['fmt']
-        LOGGER.info(f"Current company price: {state.current_price}")
+        LOGGER.info(f"{state.symbol} | Current company price: {state.current_price}")
     except ValueError:
         state.current_price = None
     return crawler_default_key_statistics(state=state)
@@ -95,7 +96,7 @@ def get_price_to_book(state: State):
     """
     try:
         state.price_to_book = state.default_key_statistics['priceToBook']['fmt']
-        LOGGER.info(f"Price to book: {state.price_to_book}")
+        LOGGER.info(f"{state.symbol} | Price to book: {state.price_to_book}")
     except ValueError:
         state.price_to_book = None
     return status(state=state)
@@ -120,6 +121,7 @@ def manager(state: State):
     :return: object
     """
     try:
+        state.symbol = "AMZN"
         result = get_html(state)
     except:
         result = state
