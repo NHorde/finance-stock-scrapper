@@ -9,7 +9,7 @@ import urllib.request
 LOGGER = BASE_LOGGER.getChild(__name__)
 
 
-timeout_decorator.timeout(10)
+@timeout_decorator.timeout(3)
 def scrap_company_list(state: State,
                        url: str,
                        path: str,
@@ -23,8 +23,9 @@ def scrap_company_list(state: State,
     :return:
     """
     try:
-        urllib.request.urlretrieve(url, path + "/data/ticker_list.csv")
+        urllib.request.urlretrieve(url, f"{path}/data/{exchange}.csv")
         state.events.extract_company_list = 100
+        LOGGER.info(f"{exchange} exchange downloaded with success")
     except Exception as e:
         LOGGER.warning(f"URL {url} not working, error: {e}")
 
@@ -36,12 +37,14 @@ def extract(state: State):
     :param state: state
     :return: Status of the extract
     """
-    url = "https://dumbstockapi.com/stock?format=csv&countries=US"
-    exchange = "nasdaq"
-    scrap_company_list(state = state,
-                       url = f"https://old.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange={exchange}&render=download"
-                       path = PATH)
 
+    exchange_list = ["nasdaq", "nyse", "amex"]
+
+    for exchange in exchange_list:
+        scrap_company_list(state = state,
+                           url = f"https://old.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange={exchange}&render=download",
+                           path = PATH,
+                           exchange = exchange)
 
 def manager(state: State):
     extract(state=state)
