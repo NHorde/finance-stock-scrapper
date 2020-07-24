@@ -29,11 +29,22 @@ def get_ticker_information(state: State):
     :param state: state
     :return: end of the script
     """
-
+    # state.output["current_price"] = None
+    # state.output[state.output['symbol'] == "BCOW"]["current_price"] = 3
+    # print(state.output[state.output['symbol'] == "BCOW"])
+    #
+    # exit(1)
     for index, row in state.output.iterrows():
         symbol = row["symbol"]
         manager_financial_scrapper(state=state, symbol=symbol)
-        state.output[state.output['symbol'] == symbol]["current_price"] = state.ticker.current_price
+        state.output.at[index, 'current_price'] = state.ticker.current_price
+        state.output.at[index, 'current_price_to_book'] = state.ticker.current_price_to_book
+        state.output.at[index, 'current_price_to_book_date'] = state.ticker.current_price_to_book_date
+        state.output.at[index, 'price_to_book_q1'] = state.ticker.price_to_book_q1
+        state.output.at[index, 'price_to_book_q2'] = state.ticker.price_to_book_q2
+        state.output.at[index, 'price_to_book_q3'] = state.ticker.price_to_book_q3
+        state.output.at[index, 'price_to_book_q4'] = state.ticker.price_to_book_q4
+
 
     state.output.to_csv(f"{PATH}/data/output.csv")
 
