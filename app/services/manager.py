@@ -30,7 +30,6 @@ def get_ticker_information(state: State):
     """
     state = manager_financial_scrapper(state = state)
 
-    state.files.test = "test"
     return state
 
 

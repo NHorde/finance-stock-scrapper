@@ -44,7 +44,6 @@ def parse_current_price(state: State):
     # for i in state.url:
     #     print(i)
 
-    print(state.url['navStore'])
     try:
         state.ticker.current_price = state.url['QuoteSummaryStore']['financialData']['currentPrice']['fmt']
         LOGGER.info(f"{state.ticker.symbol} | Current company price: {state.ticker.current_price}")
@@ -150,34 +149,23 @@ def manager(state: State):
     :return: object
     """
     try:
-        state.ticker.symbol = "marchepas"
+        state.ticker.symbol = "MRNA"
         result = request_html(state)
     except:
         result = state
-    # defaultKeyStatistics
-    # financialsTemplate
-    # price
-    # financialData
-    # quoteType
-    # calendarEvents
-    # summaryDetail
-    # symbol
-    # pageViews
-    # import json
+
     # print(json.dumps(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"], indent=3))
 
+    # state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"]
+    result=state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]
+    for i in result:
+        print(i)
     # ["trailingPbRatio"]
     # import json
     # print(json.dumps(state.url, indent=3))
-    #
-    # with open('data.txt', 'w') as outfile:
-    #     json.dump(state.url, outfile, indent=3)
+
+    import json
+    with open('data.txt', 'w') as outfile:
+        json.dump(state.url, outfile, indent=3)
     return result
 
-# QuoteTimeSeriesStore
-# timeSeries
-# quarterlyEnterprisesValueEBITDARatio
-# trailingPbRatio
-# 3
-# reportedValue
-# fmt

@@ -512,28 +512,28 @@
          "account-switch-uh": 1
       },
       "pageData": {
-         "title": "Amazon.com, Inc. (AMZN) Valuation Measures & Financial Statistics",
-         "description": "Find out all the key statistics for Amazon.com, Inc. (AMZN), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
+         "title": "Moderna, Inc. (MRNA) Valuation Measures & Financial Statistics",
+         "description": "Find out all the key statistics for Moderna, Inc. (MRNA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
          "keywords": "key statistics,financial statistics,valuation,measurement,market cap,EPS,P/E,PEG,Price/book. EBITDA,Profit margin,operating Margin,Return on Equity,Beta,short ratio",
-         "symbol": "AMZN",
+         "symbol": "MRNA",
          "category": "key-statistics",
          "meta": {
             "property": {
                "twitter:site": "@YahooFinance",
                "fb:pages": "90376669494",
                "og:image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-               "og:description": "Find out all the key statistics for Amazon.com, Inc. (AMZN), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
-               "og:title": "Amazon.com, Inc. (AMZN) Valuation Measures & Financial Statistics",
-               "twitter:description": "Find out all the key statistics for Amazon.com, Inc. (AMZN), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
-               "twitter:title": "Amazon.com, Inc. (AMZN) Valuation Measures & Financial Statistics",
+               "og:description": "Find out all the key statistics for Moderna, Inc. (MRNA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
+               "og:title": "Moderna, Inc. (MRNA) Valuation Measures & Financial Statistics",
+               "twitter:description": "Find out all the key statistics for Moderna, Inc. (MRNA), including valuation measures, fiscal year financial statistics, trading record, share statistics and more.",
+               "twitter:title": "Moderna, Inc. (MRNA) Valuation Measures & Financial Statistics",
                "al:ios:app_store_id": "328412701",
                "al:ios:app_name": "Yahoo Finance",
-               "al:android:url": "intent://quote/AMZN/#Intent;scheme=yfinance;action=android.intent.action.VIEW;package=com.yahoo.mobile.client.android.finance;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.finance;end",
+               "al:android:url": "intent://quote/MRNA/#Intent;scheme=yfinance;action=android.intent.action.VIEW;package=com.yahoo.mobile.client.android.finance;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.finance;end",
                "al:android:app_name": "Yahoo Finance",
                "al:android:package": "com.yahoo.mobile.client.android.finance"
             },
             "name": {
-               "apple-itunes-app": "app-id=328412701, affiliate-data=ct=us.fin.mbl.smart-banner&pt=9029, app-argument=https://finance.yahoo.com/quote/AMZN",
+               "apple-itunes-app": "app-id=328412701, affiliate-data=ct=us.fin.mbl.smart-banner&pt=9029, app-argument=https://finance.yahoo.com/quote/MRNA",
                "oath:guce:consent-host": "guce.yahoo.com"
             }
          }
@@ -574,16 +574,16 @@
          "route": {}
       },
       "originRenderTargetId": "default",
-      "originUrl": "/quote/AMZN/key-statistics?p=AMZN",
+      "originUrl": "/quote/MRNA/key-statistics?p=MRNA",
       "staticComponents": {}
    },
    "RouteStore": {
       "currentNavigate": {
-         "transactionId": 4505494237020620,
-         "url": "/quote/AMZN/key-statistics?p=AMZN",
+         "transactionId": 3265706992044876,
+         "url": "/quote/MRNA/key-statistics?p=MRNA",
          "method": "GET",
          "body": {},
-         "externalUrl": "https://finance.yahoo.com/quote/AMZN/key-statistics?p=AMZN",
+         "externalUrl": "https://finance.yahoo.com/quote/MRNA/key-statistics?p=MRNA",
          "route": {
             "path": "/quote/:symbol/:category?",
             "method": "get",
@@ -605,15 +605,15 @@
                }
             },
             "name": "quote",
-            "url": "/quote/AMZN/key-statistics?p=AMZN",
+            "url": "/quote/MRNA/key-statistics?p=MRNA",
             "params": {
-               "symbol": "AMZN",
+               "symbol": "MRNA",
                "category": "key-statistics",
                "quoteType": "EQUITY",
                "subscribed": "0"
             },
             "query": {
-               "p": "AMZN"
+               "p": "MRNA"
             }
          },
          "error": null,
@@ -2044,7 +2044,7 @@
          }
       },
       "comscoreC7Keyword": "",
-      "currentUrl": "/quote/AMZN/key-statistics?p=AMZN",
+      "currentUrl": "/quote/MRNA/key-statistics?p=MRNA",
       "i13nConfig": {
          "initComscore": true,
          "initRapid": true,
@@ -2068,14 +2068,14 @@
                "pct": "qsp",
                "pstcat": "equities",
                "pg_name": "key-statistics",
-               "rvt": "AMZN",
-               "ticker": "AMZN",
+               "rvt": "MRNA",
+               "ticker": "MRNA",
                "mrkt": "us",
                "site": "finance",
                "lang": "en-US",
                "colo": "bf1",
-               "_yrid": "aeglsndfhcf30",
-               "_rid": "aeglsndfhcf30",
+               "_yrid": "08i1gjhfhdo5p",
+               "_rid": "08i1gjhfhdo5p",
                "abk": ""
             },
             "pageview_on_init": true,
@@ -2248,8 +2248,8 @@
       "runtimeConfig": {
          "rapid": {
             "keys": {
-               "rvt": "AMZN",
-               "ticker": "AMZN",
+               "rvt": "MRNA",
+               "ticker": "MRNA",
                "pstcat": "equities",
                "pg_name": "key-statistics"
             }
@@ -2293,549 +2293,19 @@
       "showNavrail": false,
       "navTitle": "finance",
       "navSections": "",
-      "currentUrl": "/quote/AMZN/key-statistics?p=AMZN",
+      "currentUrl": "/quote/MRNA/key-statistics?p=MRNA",
       "pageType": {},
       "navSectionsDisplayTitle": {},
       "site": "finance"
    },
    "StreamDataStore": {
       "quoteData": {
-         "AMZN": {
+         "MRNA": {
             "sourceInterval": 15,
             "quoteSourceName": "Delayed Quote",
             "regularMarketOpen": {
-               "raw": 3000.2,
-               "fmt": "3,000.20"
-            },
-            "exchange": "NMS",
-            "regularMarketTime": {
-               "raw": 1595275201,
-               "fmt": "4:00PM EDT"
-            },
-            "fiftyTwoWeekRange": {
-               "raw": "1626.03 - 3344.29",
-               "fmt": "1,626.03 - 3,344.29"
-            },
-            "sharesOutstanding": {
-               "raw": 498776000,
-               "fmt": "498.776M",
-               "longFmt": "498,776,000"
-            },
-            "regularMarketDayHigh": {
-               "raw": 3201.3599,
-               "fmt": "3,201.36"
-            },
-            "shortName": "Amazon.com, Inc.",
-            "longName": "Amazon.com, Inc.",
-            "exchangeTimezoneName": "America/New_York",
-            "regularMarketChange": {
-               "raw": 234.87012,
-               "fmt": "234.87"
-            },
-            "regularMarketPreviousClose": {
-               "raw": 2961.97,
-               "fmt": "2,961.97"
-            },
-            "fiftyTwoWeekHighChange": {
-               "raw": -147.44995,
-               "fmt": "-147.45"
-            },
-            "exchangeTimezoneShortName": "EDT",
-            "fiftyTwoWeekLowChange": {
-               "raw": 1570.81,
-               "fmt": "1,570.81"
-            },
-            "exchangeDataDelayedBy": 0,
-            "regularMarketDayLow": {
-               "raw": 2994.017,
-               "fmt": "2,994.02"
-            },
-            "priceHint": 2,
-            "currency": "USD",
-            "regularMarketPrice": {
-               "raw": 3196.84,
-               "fmt": "3,196.84"
-            },
-            "regularMarketVolume": {
-               "raw": 7598176,
-               "fmt": "7.598M",
-               "longFmt": "7,598,176"
-            },
-            "isLoading": false,
-            "triggerable": true,
-            "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 863703000000,
-            "region": "US",
-            "marketState": "POSTPOST",
-            "marketCap": {
-               "raw": 1594507132928,
-               "fmt": "1.595T",
-               "longFmt": "1,594,507,132,928"
-            },
-            "quoteType": "EQUITY",
-            "invalid": false,
-            "symbol": "AMZN",
-            "language": "en-US",
-            "fiftyTwoWeekLowChangePercent": {
-               "raw": 0.96604,
-               "fmt": "96.60%"
-            },
-            "regularMarketDayRange": {
-               "raw": "2994.017 - 3201.3599",
-               "fmt": "2,994.02 - 3,201.36"
-            },
-            "messageBoardId": "finmb_18749",
-            "fiftyTwoWeekHigh": {
-               "raw": 3344.29,
-               "fmt": "3,344.29"
-            },
-            "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.044090062,
-               "fmt": "-4.41%"
-            },
-            "uuid": "261fd26b-0151-3813-b0d0-97e4ed4c6505",
-            "market": "us_market",
-            "fiftyTwoWeekLow": {
-               "raw": 1626.03,
-               "fmt": "1,626.03"
-            },
-            "regularMarketChangePercent": {
-               "raw": 7.929524,
-               "fmt": "7.93%"
-            },
-            "fullExchangeName": "NasdaqGS",
-            "tradeable": false
-         },
-         "FB": {
-            "sourceInterval": 15,
-            "quoteSourceName": "Delayed Quote",
-            "regularMarketOpen": {
-               "raw": 240.06,
-               "fmt": "240.06"
-            },
-            "exchange": "NMS",
-            "regularMarketTime": {
-               "raw": 1595275201,
-               "fmt": "4:00PM EDT"
-            },
-            "fiftyTwoWeekRange": {
-               "raw": "137.1 - 250.15",
-               "fmt": "137.10 - 250.15"
-            },
-            "sharesOutstanding": {
-               "raw": 2408470016,
-               "fmt": "2.408B",
-               "longFmt": "2,408,470,016"
-            },
-            "regularMarketDayHigh": {
-               "raw": 246.05,
-               "fmt": "246.05"
-            },
-            "shortName": "Facebook, Inc.",
-            "longName": "Facebook, Inc.",
-            "exchangeTimezoneName": "America/New_York",
-            "regularMarketChange": {
-               "raw": 3.3899994,
-               "fmt": "3.39"
-            },
-            "regularMarketPreviousClose": {
-               "raw": 242.03,
-               "fmt": "242.03"
-            },
-            "fiftyTwoWeekHighChange": {
-               "raw": -4.7299957,
-               "fmt": "-4.73"
-            },
-            "exchangeTimezoneShortName": "EDT",
-            "fiftyTwoWeekLowChange": {
-               "raw": 108.31999,
-               "fmt": "108.32"
-            },
-            "exchangeDataDelayedBy": 0,
-            "regularMarketDayLow": {
-               "raw": 235.635,
-               "fmt": "235.63"
-            },
-            "priceHint": 2,
-            "currency": "USD",
-            "regularMarketPrice": {
-               "raw": 245.42,
-               "fmt": "245.42"
-            },
-            "regularMarketVolume": {
-               "raw": 20872223,
-               "fmt": "20.872M",
-               "longFmt": "20,872,223"
-            },
-            "isLoading": false,
-            "triggerable": true,
-            "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 1337347800000,
-            "region": "US",
-            "marketState": "POSTPOST",
-            "marketCap": {
-               "raw": 700188131328,
-               "fmt": "700.188B",
-               "longFmt": "700,188,131,328"
-            },
-            "quoteType": "EQUITY",
-            "invalid": false,
-            "symbol": "FB",
-            "language": "en-US",
-            "fiftyTwoWeekLowChangePercent": {
-               "raw": 0.79008013,
-               "fmt": "79.01%"
-            },
-            "regularMarketDayRange": {
-               "raw": "235.635 - 246.05",
-               "fmt": "235.63 - 246.05"
-            },
-            "messageBoardId": "finmb_20765463",
-            "fiftyTwoWeekHigh": {
-               "raw": 250.15,
-               "fmt": "250.15"
-            },
-            "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.018908639,
-               "fmt": "-1.89%"
-            },
-            "uuid": "30781f1f-c2f9-342c-ab1a-d2f6f35a51db",
-            "market": "us_market",
-            "fiftyTwoWeekLow": {
-               "raw": 137.1,
-               "fmt": "137.10"
-            },
-            "regularMarketChangePercent": {
-               "raw": 1.4006525,
-               "fmt": "1.40%"
-            },
-            "fullExchangeName": "NasdaqGS",
-            "tradeable": false
-         },
-         "GOOG": {
-            "sourceInterval": 15,
-            "quoteSourceName": "Delayed Quote",
-            "regularMarketOpen": {
-               "raw": 1515.26,
-               "fmt": "1,515.26"
-            },
-            "exchange": "NMS",
-            "regularMarketTime": {
-               "raw": 1595275201,
-               "fmt": "4:00PM EDT"
-            },
-            "fiftyTwoWeekRange": {
-               "raw": "1013.536 - 1577.132",
-               "fmt": "1,013.54 - 1,577.13"
-            },
-            "sharesOutstanding": {
-               "raw": 336161984,
-               "fmt": "336.162M",
-               "longFmt": "336,161,984"
-            },
-            "regularMarketDayHigh": {
-               "raw": 1570.27,
-               "fmt": "1,570.27"
-            },
-            "shortName": "Alphabet Inc.",
-            "longName": "Alphabet Inc.",
-            "exchangeTimezoneName": "America/New_York",
-            "regularMarketChange": {
-               "raw": 50.16992,
-               "fmt": "50.17"
-            },
-            "regularMarketPreviousClose": {
-               "raw": 1515.55,
-               "fmt": "1,515.55"
-            },
-            "fiftyTwoWeekHighChange": {
-               "raw": -11.411987,
-               "fmt": "-11.41"
-            },
-            "exchangeTimezoneShortName": "EDT",
-            "fiftyTwoWeekLowChange": {
-               "raw": 552.18396,
-               "fmt": "552.18"
-            },
-            "exchangeDataDelayedBy": 0,
-            "regularMarketDayLow": {
-               "raw": 1503.82,
-               "fmt": "1,503.82"
-            },
-            "priceHint": 2,
-            "currency": "USD",
-            "regularMarketPrice": {
-               "raw": 1565.72,
-               "fmt": "1,565.72"
-            },
-            "regularMarketVolume": {
-               "raw": 1557252,
-               "fmt": "1.557M",
-               "longFmt": "1,557,252"
-            },
-            "isLoading": false,
-            "triggerable": true,
-            "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 1092922200000,
-            "region": "US",
-            "marketState": "POSTPOST",
-            "marketCap": {
-               "raw": 1069256802304,
-               "fmt": "1.069T",
-               "longFmt": "1,069,256,802,304"
-            },
-            "quoteType": "EQUITY",
-            "invalid": false,
-            "symbol": "GOOG",
-            "language": "en-US",
-            "fiftyTwoWeekLowChangePercent": {
-               "raw": 0.5448094,
-               "fmt": "54.48%"
-            },
-            "regularMarketDayRange": {
-               "raw": "1503.82 - 1570.27",
-               "fmt": "1,503.82 - 1,570.27"
-            },
-            "messageBoardId": "finmb_29096",
-            "fiftyTwoWeekHigh": {
-               "raw": 1577.132,
-               "fmt": "1,577.13"
-            },
-            "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.0072359117,
-               "fmt": "-0.72%"
-            },
-            "uuid": "ee8cce8c-2475-31c0-8436-ecdf889cbfbd",
-            "market": "us_market",
-            "fiftyTwoWeekLow": {
-               "raw": 1013.536,
-               "fmt": "1,013.54"
-            },
-            "regularMarketChangePercent": {
-               "raw": 3.310344,
-               "fmt": "3.31%"
-            },
-            "fullExchangeName": "NasdaqGS",
-            "tradeable": false
-         },
-         "AAPL": {
-            "sourceInterval": 15,
-            "quoteSourceName": "Delayed Quote",
-            "regularMarketOpen": {
-               "raw": 385.665,
-               "fmt": "385.67"
-            },
-            "exchange": "NMS",
-            "regularMarketTime": {
-               "raw": 1595275201,
-               "fmt": "4:00PM EDT"
-            },
-            "fiftyTwoWeekRange": {
-               "raw": "192.58 - 399.82",
-               "fmt": "192.58 - 399.82"
-            },
-            "sharesOutstanding": {
-               "raw": 4334329856,
-               "fmt": "4.334B",
-               "longFmt": "4,334,329,856"
-            },
-            "regularMarketDayHigh": {
-               "raw": 393.92,
-               "fmt": "393.92"
-            },
-            "shortName": "Apple Inc.",
-            "longName": "Apple Inc.",
-            "exchangeTimezoneName": "America/New_York",
-            "regularMarketChange": {
-               "raw": 8.119995,
-               "fmt": "8.12"
-            },
-            "regularMarketPreviousClose": {
-               "raw": 385.31,
-               "fmt": "385.31"
-            },
-            "fiftyTwoWeekHighChange": {
-               "raw": -6.3900146,
-               "fmt": "-6.39"
-            },
-            "exchangeTimezoneShortName": "EDT",
-            "fiftyTwoWeekLowChange": {
-               "raw": 200.84999,
-               "fmt": "200.85"
-            },
-            "exchangeDataDelayedBy": 0,
-            "regularMarketDayLow": {
-               "raw": 384.25,
-               "fmt": "384.25"
-            },
-            "priceHint": 2,
-            "currency": "USD",
-            "regularMarketPrice": {
-               "raw": 393.43,
-               "fmt": "393.43"
-            },
-            "regularMarketVolume": {
-               "raw": 22579477,
-               "fmt": "22.579M",
-               "longFmt": "22,579,477"
-            },
-            "isLoading": false,
-            "triggerable": true,
-            "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 345479400000,
-            "region": "US",
-            "marketState": "POSTPOST",
-            "marketCap": {
-               "raw": 1705255370752,
-               "fmt": "1.705T",
-               "longFmt": "1,705,255,370,752"
-            },
-            "quoteType": "EQUITY",
-            "invalid": false,
-            "symbol": "AAPL",
-            "language": "en-US",
-            "fiftyTwoWeekLowChangePercent": {
-               "raw": 1.0429431,
-               "fmt": "104.29%"
-            },
-            "regularMarketDayRange": {
-               "raw": "384.25 - 393.92",
-               "fmt": "384.25 - 393.92"
-            },
-            "messageBoardId": "finmb_24937",
-            "fiftyTwoWeekHigh": {
-               "raw": 399.82,
-               "fmt": "399.82"
-            },
-            "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.015982227,
-               "fmt": "-1.60%"
-            },
-            "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
-            "market": "us_market",
-            "fiftyTwoWeekLow": {
-               "raw": 192.58,
-               "fmt": "192.58"
-            },
-            "regularMarketChangePercent": {
-               "raw": 2.1073928,
-               "fmt": "2.11%"
-            },
-            "fullExchangeName": "NasdaqGS",
-            "tradeable": false
-         },
-         "NFLX": {
-            "sourceInterval": 15,
-            "quoteSourceName": "Delayed Quote",
-            "regularMarketOpen": {
-               "raw": 489.14,
-               "fmt": "489.14"
-            },
-            "exchange": "NMS",
-            "regularMarketTime": {
-               "raw": 1595275201,
-               "fmt": "4:00PM EDT"
-            },
-            "fiftyTwoWeekRange": {
-               "raw": "252.28 - 575.37",
-               "fmt": "252.28 - 575.37"
-            },
-            "sharesOutstanding": {
-               "raw": 439804000,
-               "fmt": "439.804M",
-               "longFmt": "439,804,000"
-            },
-            "regularMarketDayHigh": {
-               "raw": 504.5,
-               "fmt": "504.50"
-            },
-            "shortName": "Netflix, Inc.",
-            "longName": "Netflix, Inc.",
-            "exchangeTimezoneName": "America/New_York",
-            "regularMarketChange": {
-               "raw": 9.420013,
-               "fmt": "9.42"
-            },
-            "regularMarketPreviousClose": {
-               "raw": 492.99,
-               "fmt": "492.99"
-            },
-            "fiftyTwoWeekHighChange": {
-               "raw": -72.95999,
-               "fmt": "-72.96"
-            },
-            "exchangeTimezoneShortName": "EDT",
-            "fiftyTwoWeekLowChange": {
-               "raw": 250.13,
-               "fmt": "250.13"
-            },
-            "exchangeDataDelayedBy": 0,
-            "regularMarketDayLow": {
-               "raw": 484.219,
-               "fmt": "484.22"
-            },
-            "priceHint": 2,
-            "currency": "USD",
-            "regularMarketPrice": {
-               "raw": 502.41,
-               "fmt": "502.41"
-            },
-            "regularMarketVolume": {
-               "raw": 11833576,
-               "fmt": "11.834M",
-               "longFmt": "11,833,576"
-            },
-            "isLoading": false,
-            "triggerable": true,
-            "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 1022160600000,
-            "region": "US",
-            "marketState": "POSTPOST",
-            "marketCap": {
-               "raw": 220961931264,
-               "fmt": "220.962B",
-               "longFmt": "220,961,931,264"
-            },
-            "quoteType": "EQUITY",
-            "invalid": false,
-            "symbol": "NFLX",
-            "language": "en-US",
-            "fiftyTwoWeekLowChangePercent": {
-               "raw": 0.9914777,
-               "fmt": "99.15%"
-            },
-            "regularMarketDayRange": {
-               "raw": "484.219 - 504.5",
-               "fmt": "484.22 - 504.50"
-            },
-            "messageBoardId": "finmb_32012",
-            "fiftyTwoWeekHigh": {
-               "raw": 575.37,
-               "fmt": "575.37"
-            },
-            "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.12680535,
-               "fmt": "-12.68%"
-            },
-            "uuid": "1a1cddac-4d41-374d-b202-739314177b67",
-            "market": "us_market",
-            "fiftyTwoWeekLow": {
-               "raw": 252.28,
-               "fmt": "252.28"
-            },
-            "regularMarketChangePercent": {
-               "raw": 1.9107921,
-               "fmt": "1.91%"
-            },
-            "fullExchangeName": "NasdaqGS",
-            "tradeable": false
-         },
-         "TSLA": {
-            "sourceInterval": 15,
-            "quoteSourceName": "Delayed Quote",
-            "regularMarketOpen": {
-               "raw": 1519.01,
-               "fmt": "1,519.01"
+               "raw": 87.86,
+               "fmt": "87.86"
             },
             "exchange": "NMS",
             "regularMarketTime": {
@@ -2843,95 +2313,625 @@
                "fmt": "4:00PM EDT"
             },
             "fiftyTwoWeekRange": {
-               "raw": "211.0 - 1794.99",
-               "fmt": "211.00 - 1,794.99"
+               "raw": "11.54 - 95.21",
+               "fmt": "11.54 - 95.21"
             },
             "sharesOutstanding": {
-               "raw": 185475008,
-               "fmt": "185.475M",
-               "longFmt": "185,475,008"
+               "raw": 371224000,
+               "fmt": "371.224M",
+               "longFmt": "371,224,000"
             },
             "regularMarketDayHigh": {
-               "raw": 1650,
-               "fmt": "1,650.00"
+               "raw": 90.85,
+               "fmt": "90.85"
             },
-            "shortName": "Tesla, Inc.",
-            "longName": "Tesla, Inc.",
+            "shortName": "Moderna, Inc.",
+            "longName": "Moderna, Inc.",
             "exchangeTimezoneName": "America/New_York",
             "regularMarketChange": {
-               "raw": 142.16003,
-               "fmt": "142.16"
+               "raw": -12.169998,
+               "fmt": "-12.17"
             },
             "regularMarketPreviousClose": {
-               "raw": 1500.84,
-               "fmt": "1,500.84"
+               "raw": 94.85,
+               "fmt": "94.85"
             },
             "fiftyTwoWeekHighChange": {
-               "raw": -151.98999,
-               "fmt": "-151.99"
+               "raw": -12.529999,
+               "fmt": "-12.53"
             },
             "exchangeTimezoneShortName": "EDT",
             "fiftyTwoWeekLowChange": {
-               "raw": 1432,
-               "fmt": "1,432.00"
+               "raw": 71.14,
+               "fmt": "71.14"
             },
             "exchangeDataDelayedBy": 0,
             "regularMarketDayLow": {
-               "raw": 1488,
-               "fmt": "1,488.00"
+               "raw": 78.05,
+               "fmt": "78.05"
             },
             "priceHint": 2,
             "currency": "USD",
             "regularMarketPrice": {
-               "raw": 1643,
-               "fmt": "1,643.00"
+               "raw": 82.68,
+               "fmt": "82.68"
             },
             "regularMarketVolume": {
-               "raw": 17121367,
-               "fmt": "17.121M",
-               "longFmt": "17,121,367"
+               "raw": 78391296,
+               "fmt": "78.391M",
+               "longFmt": "78,391,296"
             },
             "isLoading": false,
             "triggerable": true,
             "gmtOffSetMilliseconds": -14400000,
-            "firstTradeDateMilliseconds": 1277818200000,
+            "firstTradeDateMilliseconds": 1544193000000,
             "region": "US",
-            "marketState": "POSTPOST",
+            "marketState": "PRE",
             "marketCap": {
-               "raw": 304735453184,
-               "fmt": "304.735B",
-               "longFmt": "304,735,453,184"
+               "raw": 30692800512,
+               "fmt": "30.693B",
+               "longFmt": "30,692,800,512"
             },
             "quoteType": "EQUITY",
             "invalid": false,
-            "symbol": "TSLA",
+            "symbol": "MRNA",
             "language": "en-US",
             "fiftyTwoWeekLowChangePercent": {
-               "raw": 6.78673,
-               "fmt": "678.67%"
+               "raw": 6.1646447,
+               "fmt": "616.46%"
             },
             "regularMarketDayRange": {
-               "raw": "1488.0 - 1650.0",
-               "fmt": "1,488.00 - 1,650.00"
+               "raw": "78.05 - 90.85",
+               "fmt": "78.05 - 90.85"
             },
-            "messageBoardId": "finmb_27444752",
+            "messageBoardId": "finmb_128680956",
             "fiftyTwoWeekHigh": {
-               "raw": 1794.99,
-               "fmt": "1,794.99"
+               "raw": 95.21,
+               "fmt": "95.21"
             },
             "fiftyTwoWeekHighChangePercent": {
-               "raw": -0.08467456,
-               "fmt": "-8.47%"
+               "raw": -0.1316038,
+               "fmt": "-13.16%"
             },
-            "uuid": "ec367bc4-f92c-397c-ac81-bf7b43cffaf7",
+            "uuid": "210c0d72-66a5-36d2-944f-611b6274a1fc",
             "market": "us_market",
             "fiftyTwoWeekLow": {
-               "raw": 211,
-               "fmt": "211.00"
+               "raw": 11.54,
+               "fmt": "11.54"
             },
             "regularMarketChangePercent": {
-               "raw": 9.472032,
-               "fmt": "9.47%"
+               "raw": -12.830784,
+               "fmt": "-12.83%"
+            },
+            "fullExchangeName": "NasdaqGS",
+            "tradeable": false
+         },
+         "INO": {
+            "sourceInterval": 15,
+            "quoteSourceName": "Delayed Quote",
+            "regularMarketOpen": {
+               "raw": 26.97,
+               "fmt": "26.97"
+            },
+            "exchange": "NMS",
+            "regularMarketTime": {
+               "raw": 1595275201,
+               "fmt": "4:00PM EDT"
+            },
+            "fiftyTwoWeekRange": {
+               "raw": "1.92 - 33.79",
+               "fmt": "1.92 - 33.79"
+            },
+            "sharesOutstanding": {
+               "raw": 158096000,
+               "fmt": "158.096M",
+               "longFmt": "158,096,000"
+            },
+            "regularMarketDayHigh": {
+               "raw": 27.5,
+               "fmt": "27.50"
+            },
+            "shortName": "Inovio Pharmaceuticals, Inc.",
+            "longName": "Inovio Pharmaceuticals, Inc.",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+               "raw": -1.5999985,
+               "fmt": "-1.60"
+            },
+            "regularMarketPreviousClose": {
+               "raw": 26.97,
+               "fmt": "26.97"
+            },
+            "fiftyTwoWeekHighChange": {
+               "raw": -8.42,
+               "fmt": "-8.42"
+            },
+            "exchangeTimezoneShortName": "EDT",
+            "fiftyTwoWeekLowChange": {
+               "raw": 23.45,
+               "fmt": "23.45"
+            },
+            "exchangeDataDelayedBy": 0,
+            "regularMarketDayLow": {
+               "raw": 24.1,
+               "fmt": "24.10"
+            },
+            "priceHint": 2,
+            "currency": "USD",
+            "regularMarketPrice": {
+               "raw": 25.37,
+               "fmt": "25.37"
+            },
+            "regularMarketVolume": {
+               "raw": 21180479,
+               "fmt": "21.18M",
+               "longFmt": "21,180,479"
+            },
+            "isLoading": false,
+            "triggerable": true,
+            "gmtOffSetMilliseconds": -14400000,
+            "firstTradeDateMilliseconds": 913127400000,
+            "region": "US",
+            "marketState": "PRE",
+            "marketCap": {
+               "raw": 4010895616,
+               "fmt": "4.011B",
+               "longFmt": "4,010,895,616"
+            },
+            "quoteType": "EQUITY",
+            "invalid": false,
+            "symbol": "INO",
+            "language": "en-US",
+            "fiftyTwoWeekLowChangePercent": {
+               "raw": 12.213542,
+               "fmt": "1,221.35%"
+            },
+            "regularMarketDayRange": {
+               "raw": "24.1 - 27.5",
+               "fmt": "24.10 - 27.50"
+            },
+            "messageBoardId": "finmb_28922",
+            "fiftyTwoWeekHigh": {
+               "raw": 33.79,
+               "fmt": "33.79"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+               "raw": -0.24918614,
+               "fmt": "-24.92%"
+            },
+            "uuid": "ac020a93-0ebc-3108-95e6-c7f296b9daee",
+            "market": "us_market",
+            "fiftyTwoWeekLow": {
+               "raw": 1.92,
+               "fmt": "1.92"
+            },
+            "regularMarketChangePercent": {
+               "raw": -5.9325123,
+               "fmt": "-5.93%"
+            },
+            "fullExchangeName": "NasdaqGS",
+            "tradeable": false
+         },
+         "NVAX": {
+            "sourceInterval": 15,
+            "quoteSourceName": "Delayed Quote",
+            "regularMarketOpen": {
+               "raw": 149.49,
+               "fmt": "149.49"
+            },
+            "exchange": "NMS",
+            "regularMarketTime": {
+               "raw": 1595275201,
+               "fmt": "4:00PM EDT"
+            },
+            "fiftyTwoWeekRange": {
+               "raw": "3.54 - 151.2",
+               "fmt": "3.54 - 151.20"
+            },
+            "sharesOutstanding": {
+               "raw": 58687800,
+               "fmt": "58.688M",
+               "longFmt": "58,687,800"
+            },
+            "regularMarketDayHigh": {
+               "raw": 151.2,
+               "fmt": "151.20"
+            },
+            "shortName": "Novavax, Inc.",
+            "longName": "Novavax, Inc.",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+               "raw": -2.2600098,
+               "fmt": "-2.26"
+            },
+            "regularMarketPreviousClose": {
+               "raw": 140.49,
+               "fmt": "140.49"
+            },
+            "fiftyTwoWeekHighChange": {
+               "raw": -12.970001,
+               "fmt": "-12.97"
+            },
+            "exchangeTimezoneShortName": "EDT",
+            "fiftyTwoWeekLowChange": {
+               "raw": 134.69,
+               "fmt": "134.69"
+            },
+            "exchangeDataDelayedBy": 0,
+            "regularMarketDayLow": {
+               "raw": 124.1,
+               "fmt": "124.10"
+            },
+            "priceHint": 2,
+            "currency": "USD",
+            "regularMarketPrice": {
+               "raw": 138.23,
+               "fmt": "138.23"
+            },
+            "regularMarketVolume": {
+               "raw": 12934461,
+               "fmt": "12.934M",
+               "longFmt": "12,934,461"
+            },
+            "isLoading": false,
+            "triggerable": true,
+            "gmtOffSetMilliseconds": -14400000,
+            "firstTradeDateMilliseconds": 818173800000,
+            "region": "US",
+            "marketState": "PRE",
+            "marketCap": {
+               "raw": 8112414208,
+               "fmt": "8.112B",
+               "longFmt": "8,112,414,208"
+            },
+            "quoteType": "EQUITY",
+            "invalid": false,
+            "symbol": "NVAX",
+            "language": "en-US",
+            "fiftyTwoWeekLowChangePercent": {
+               "raw": 38.048023,
+               "fmt": "3,804.80%"
+            },
+            "regularMarketDayRange": {
+               "raw": "124.1 - 151.2",
+               "fmt": "124.10 - 151.20"
+            },
+            "messageBoardId": "finmb_350381",
+            "fiftyTwoWeekHigh": {
+               "raw": 151.2,
+               "fmt": "151.20"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+               "raw": -0.085780434,
+               "fmt": "-8.58%"
+            },
+            "uuid": "cdb3cddb-5091-3918-86d6-9b4894e61c6c",
+            "market": "us_market",
+            "fiftyTwoWeekLow": {
+               "raw": 3.54,
+               "fmt": "3.54"
+            },
+            "regularMarketChangePercent": {
+               "raw": -1.6086624,
+               "fmt": "-1.61%"
+            },
+            "fullExchangeName": "NasdaqGS",
+            "tradeable": false
+         },
+         "ZM": {
+            "sourceInterval": 15,
+            "quoteSourceName": "Delayed Quote",
+            "regularMarketOpen": {
+               "raw": 246.486,
+               "fmt": "246.49"
+            },
+            "exchange": "NMS",
+            "regularMarketTime": {
+               "raw": 1595275201,
+               "fmt": "4:00PM EDT"
+            },
+            "fiftyTwoWeekRange": {
+               "raw": "60.968 - 281.0",
+               "fmt": "60.97 - 281.00"
+            },
+            "sharesOutstanding": {
+               "raw": 182106000,
+               "fmt": "182.106M",
+               "longFmt": "182,106,000"
+            },
+            "regularMarketDayHigh": {
+               "raw": 271.35,
+               "fmt": "271.35"
+            },
+            "shortName": "Zoom Video Communications, Inc.",
+            "longName": "Zoom Video Communications, Inc.",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+               "raw": 22.039993,
+               "fmt": "22.04"
+            },
+            "regularMarketPreviousClose": {
+               "raw": 246.54,
+               "fmt": "246.54"
+            },
+            "fiftyTwoWeekHighChange": {
+               "raw": -12.420013,
+               "fmt": "-12.42"
+            },
+            "exchangeTimezoneShortName": "EDT",
+            "fiftyTwoWeekLowChange": {
+               "raw": 207.61198,
+               "fmt": "207.61"
+            },
+            "exchangeDataDelayedBy": 0,
+            "regularMarketDayLow": {
+               "raw": 245.99,
+               "fmt": "245.99"
+            },
+            "priceHint": 2,
+            "currency": "USD",
+            "regularMarketPrice": {
+               "raw": 268.58,
+               "fmt": "268.58"
+            },
+            "regularMarketVolume": {
+               "raw": 9719213,
+               "fmt": "9.719M",
+               "longFmt": "9,719,213"
+            },
+            "isLoading": false,
+            "triggerable": true,
+            "gmtOffSetMilliseconds": -14400000,
+            "firstTradeDateMilliseconds": 1555594200000,
+            "region": "US",
+            "marketState": "PRE",
+            "marketCap": {
+               "raw": 75767218176,
+               "fmt": "75.767B",
+               "longFmt": "75,767,218,176"
+            },
+            "quoteType": "EQUITY",
+            "invalid": false,
+            "symbol": "ZM",
+            "language": "en-US",
+            "fiftyTwoWeekLowChangePercent": {
+               "raw": 3.4052615,
+               "fmt": "340.53%"
+            },
+            "regularMarketDayRange": {
+               "raw": "245.99 - 271.35",
+               "fmt": "245.99 - 271.35"
+            },
+            "messageBoardId": "finmb_223236753",
+            "fiftyTwoWeekHigh": {
+               "raw": 281,
+               "fmt": "281.00"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+               "raw": -0.044199336,
+               "fmt": "-4.42%"
+            },
+            "uuid": "70f73ee5-133f-39c2-b135-16067fabfd87",
+            "market": "us_market",
+            "fiftyTwoWeekLow": {
+               "raw": 60.968,
+               "fmt": "60.97"
+            },
+            "regularMarketChangePercent": {
+               "raw": 8.939724,
+               "fmt": "8.94%"
+            },
+            "fullExchangeName": "NasdaqGS",
+            "tradeable": false
+         },
+         "VXRT": {
+            "sourceInterval": 15,
+            "quoteSourceName": "Delayed Quote",
+            "regularMarketOpen": {
+               "raw": 16.5665,
+               "fmt": "16.57"
+            },
+            "exchange": "NMS",
+            "regularMarketTime": {
+               "raw": 1595275201,
+               "fmt": "4:00PM EDT"
+            },
+            "fiftyTwoWeekRange": {
+               "raw": "0.25 - 17.49",
+               "fmt": "0.25 - 17.49"
+            },
+            "sharesOutstanding": {
+               "raw": 109094000,
+               "fmt": "109.094M",
+               "longFmt": "109,094,000"
+            },
+            "regularMarketDayHigh": {
+               "raw": 16.87,
+               "fmt": "16.87"
+            },
+            "shortName": "Vaxart, Inc. - Common Stock",
+            "longName": "Vaxart, Inc.",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+               "raw": -0.5600004,
+               "fmt": "-0.56"
+            },
+            "regularMarketPreviousClose": {
+               "raw": 15.75,
+               "fmt": "15.75"
+            },
+            "fiftyTwoWeekHighChange": {
+               "raw": -2.3000002,
+               "fmt": "-2.30"
+            },
+            "exchangeTimezoneShortName": "EDT",
+            "fiftyTwoWeekLowChange": {
+               "raw": 14.94,
+               "fmt": "14.94"
+            },
+            "exchangeDataDelayedBy": 0,
+            "regularMarketDayLow": {
+               "raw": 14.77,
+               "fmt": "14.77"
+            },
+            "priceHint": 2,
+            "currency": "USD",
+            "regularMarketPrice": {
+               "raw": 15.19,
+               "fmt": "15.19"
+            },
+            "regularMarketVolume": {
+               "raw": 31208842,
+               "fmt": "31.209M",
+               "longFmt": "31,208,842"
+            },
+            "isLoading": false,
+            "triggerable": true,
+            "gmtOffSetMilliseconds": -14400000,
+            "firstTradeDateMilliseconds": 376929000000,
+            "region": "US",
+            "marketState": "PRE",
+            "marketCap": {
+               "raw": 1657137792,
+               "fmt": "1.657B",
+               "longFmt": "1,657,137,792"
+            },
+            "quoteType": "EQUITY",
+            "invalid": false,
+            "symbol": "VXRT",
+            "language": "en-US",
+            "fiftyTwoWeekLowChangePercent": {
+               "raw": 59.76,
+               "fmt": "5,976.00%"
+            },
+            "regularMarketDayRange": {
+               "raw": "14.77 - 16.87",
+               "fmt": "14.77 - 16.87"
+            },
+            "messageBoardId": "finmb_37819645",
+            "fiftyTwoWeekHigh": {
+               "raw": 17.49,
+               "fmt": "17.49"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+               "raw": -0.13150373,
+               "fmt": "-13.15%"
+            },
+            "uuid": "4d8f7932-a203-34dc-b099-0c90a8658892",
+            "market": "us_market",
+            "fiftyTwoWeekLow": {
+               "raw": 0.25,
+               "fmt": "0.25"
+            },
+            "regularMarketChangePercent": {
+               "raw": -3.5555582,
+               "fmt": "-3.56%"
+            },
+            "fullExchangeName": "NasdaqGS",
+            "tradeable": false
+         },
+         "GILD": {
+            "sourceInterval": 15,
+            "quoteSourceName": "Delayed Quote",
+            "regularMarketOpen": {
+               "raw": 77.745,
+               "fmt": "77.75"
+            },
+            "exchange": "NMS",
+            "regularMarketTime": {
+               "raw": 1595275201,
+               "fmt": "4:00PM EDT"
+            },
+            "fiftyTwoWeekRange": {
+               "raw": "60.89 - 85.97",
+               "fmt": "60.89 - 85.97"
+            },
+            "sharesOutstanding": {
+               "raw": 1254370048,
+               "fmt": "1.254B",
+               "longFmt": "1,254,370,048"
+            },
+            "regularMarketDayHigh": {
+               "raw": 78.94,
+               "fmt": "78.94"
+            },
+            "shortName": "Gilead Sciences, Inc.",
+            "longName": "Gilead Sciences, Inc.",
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+               "raw": 0.5699997,
+               "fmt": "0.57"
+            },
+            "regularMarketPreviousClose": {
+               "raw": 77.51,
+               "fmt": "77.51"
+            },
+            "fiftyTwoWeekHighChange": {
+               "raw": -7.8899994,
+               "fmt": "-7.89"
+            },
+            "exchangeTimezoneShortName": "EDT",
+            "fiftyTwoWeekLowChange": {
+               "raw": 17.190002,
+               "fmt": "17.19"
+            },
+            "exchangeDataDelayedBy": 0,
+            "regularMarketDayLow": {
+               "raw": 77.3,
+               "fmt": "77.30"
+            },
+            "priceHint": 2,
+            "currency": "USD",
+            "regularMarketPrice": {
+               "raw": 78.08,
+               "fmt": "78.08"
+            },
+            "regularMarketVolume": {
+               "raw": 6974382,
+               "fmt": "6.974M",
+               "longFmt": "6,974,382"
+            },
+            "isLoading": false,
+            "triggerable": true,
+            "gmtOffSetMilliseconds": -14400000,
+            "firstTradeDateMilliseconds": 696090600000,
+            "region": "US",
+            "marketState": "PRE",
+            "marketCap": {
+               "raw": 97941217280,
+               "fmt": "97.941B",
+               "longFmt": "97,941,217,280"
+            },
+            "quoteType": "EQUITY",
+            "invalid": false,
+            "symbol": "GILD",
+            "language": "en-US",
+            "fiftyTwoWeekLowChangePercent": {
+               "raw": 0.28231242,
+               "fmt": "28.23%"
+            },
+            "regularMarketDayRange": {
+               "raw": "77.3 - 78.94",
+               "fmt": "77.30 - 78.94"
+            },
+            "messageBoardId": "finmb_29002",
+            "fiftyTwoWeekHigh": {
+               "raw": 85.97,
+               "fmt": "85.97"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+               "raw": -0.09177619,
+               "fmt": "-9.18%"
+            },
+            "uuid": "8659e669-8ec5-3b0f-9929-db5db506231f",
+            "market": "us_market",
+            "fiftyTwoWeekLow": {
+               "raw": 60.89,
+               "fmt": "60.89"
+            },
+            "regularMarketChangePercent": {
+               "raw": 0.7353886,
+               "fmt": "0.74%"
             },
             "fullExchangeName": "NasdaqGS",
             "tradeable": false
@@ -2943,48 +2943,48 @@
       "defaultKeyStatistics": {
          "annualHoldingsTurnover": {},
          "enterpriseToRevenue": {
-            "raw": 5.084,
-            "fmt": "5.08"
+            "raw": 563.539,
+            "fmt": "563.54"
          },
          "beta3Year": {},
          "profitMargins": {
-            "raw": 0.03565,
-            "fmt": "3.56%"
+            "raw": 0,
+            "fmt": "0.00%"
          },
          "enterpriseToEbitda": {
-            "raw": 41.528,
-            "fmt": "41.53"
+            "raw": -58.808,
+            "fmt": "-58.81"
          },
          "52WeekChange": {
-            "raw": 0.4917029,
-            "fmt": "49.17%"
+            "raw": 5.0794115,
+            "fmt": "507.94%"
          },
          "morningStarRiskRating": {},
          "forwardEps": {
-            "raw": 37.47,
-            "fmt": "37.47"
+            "raw": 0.72,
+            "fmt": "0.72"
          },
          "revenueQuarterlyGrowth": {},
          "sharesOutstanding": {
-            "raw": 498776000,
-            "fmt": "498.78M",
-            "longFmt": "498,776,000"
+            "raw": 371224000,
+            "fmt": "371.22M",
+            "longFmt": "371,224,000"
          },
          "fundInceptionDate": {},
          "annualReportExpenseRatio": {},
          "totalAssets": {},
          "bookValue": {
-            "raw": 130.806,
-            "fmt": "130.81"
+            "raw": 4.434,
+            "fmt": "4.43"
          },
          "sharesShort": {
-            "raw": 3850771,
-            "fmt": "3.85M",
-            "longFmt": "3,850,771"
+            "raw": 28635375,
+            "fmt": "28.64M",
+            "longFmt": "28,635,375"
          },
          "sharesPercentSharesOut": {
-            "raw": 0.0077,
-            "fmt": "0.77%"
+            "raw": 0.0771,
+            "fmt": "7.71%"
          },
          "fundFamily": null,
          "lastFiscalYearEnd": {
@@ -2992,30 +2992,30 @@
             "fmt": "2019-12-31"
          },
          "heldPercentInstitutions": {
-            "raw": 0.57689,
-            "fmt": "57.69%"
+            "raw": 0.53532004,
+            "fmt": "53.53%"
          },
          "netIncomeToCommon": {
-            "raw": 10561999872,
-            "fmt": "10.56B",
-            "longFmt": "10,561,999,872"
+            "raw": -505675008,
+            "fmt": "-505.68M",
+            "longFmt": "-505,675,008"
          },
          "trailingEps": {
-            "raw": 20.936,
-            "fmt": "20.94"
+            "raw": -1.501,
+            "fmt": "-1.50"
          },
          "lastDividendValue": {},
          "SandP52WeekChange": {
-            "raw": 0.08030069,
-            "fmt": "8.03%"
+            "raw": 0.08197391,
+            "fmt": "8.20%"
          },
          "priceToBook": {
-            "raw": 24.439552,
-            "fmt": "24.44"
+            "raw": 18.64682,
+            "fmt": "18.65"
          },
          "heldPercentInsiders": {
-            "raw": 0.15122,
-            "fmt": "15.12%"
+            "raw": 0.23942,
+            "fmt": "23.94%"
          },
          "nextFiscalYearEnd": {
             "raw": 1640908800,
@@ -3027,26 +3027,23 @@
             "fmt": "2020-03-31"
          },
          "shortRatio": {
-            "raw": 0.96,
-            "fmt": "0.96"
+            "raw": 1.82,
+            "fmt": "1.82"
          },
          "sharesShortPreviousMonthDate": {
             "raw": 1590710400,
             "fmt": "2020-05-29"
          },
          "floatShares": {
-            "raw": 423016940,
-            "fmt": "423.02M",
-            "longFmt": "423,016,940"
+            "raw": 253686965,
+            "fmt": "253.69M",
+            "longFmt": "253,686,965"
          },
-         "beta": {
-            "raw": 1.323809,
-            "fmt": "1.32"
-         },
+         "beta": {},
          "enterpriseValue": {
-            "raw": 1506218606592,
-            "fmt": "1.51T",
-            "longFmt": "1,506,218,606,592"
+            "raw": 29626925056,
+            "fmt": "29.63B",
+            "longFmt": "29,626,925,056"
          },
          "priceHint": {
             "raw": 2,
@@ -3054,41 +3051,35 @@
             "longFmt": "2"
          },
          "threeYearAverageReturn": {},
-         "lastSplitDate": {
-            "raw": 936230400,
-            "fmt": "1999-09-02"
-         },
-         "lastSplitFactor": "2:1",
+         "lastSplitDate": {},
+         "lastSplitFactor": null,
          "legalType": null,
          "morningStarOverallRating": {},
-         "earningsQuarterlyGrowth": {
-            "raw": -0.288,
-            "fmt": "-28.80%"
-         },
+         "earningsQuarterlyGrowth": {},
          "priceToSalesTrailing12Months": {},
          "dateShortInterest": {
             "raw": 1593475200,
             "fmt": "2020-06-30"
          },
          "pegRatio": {
-            "raw": 5.1,
-            "fmt": "5.10"
+            "raw": -3.76,
+            "fmt": "-3.76"
          },
          "ytdReturn": {},
          "forwardPE": {
-            "raw": 85.31732,
-            "fmt": "85.32"
+            "raw": 114.83333,
+            "fmt": "114.83"
          },
          "maxAge": 1,
          "lastCapGain": {},
          "shortPercentOfFloat": {
-            "raw": 0.0091,
-            "fmt": "0.91%"
+            "raw": 0.1024,
+            "fmt": "10.24%"
          },
          "sharesShortPriorMonth": {
-            "raw": 3553105,
-            "fmt": "3.55M",
-            "longFmt": "3,553,105"
+            "raw": 22864053,
+            "fmt": "22.86M",
+            "longFmt": "22,864,053"
          },
          "category": null,
          "fiveYearAverageReturn": {}
@@ -3100,62 +3091,62 @@
       "price": {
          "quoteSourceName": "Delayed Quote",
          "regularMarketOpen": {
-            "raw": 3000.2,
-            "fmt": "3,000.20"
+            "raw": 87.86,
+            "fmt": "87.86"
          },
          "averageDailyVolume3Month": {
-            "raw": 4691804,
-            "fmt": "4.69M",
-            "longFmt": "4,691,804"
+            "raw": 25646996,
+            "fmt": "25.65M",
+            "longFmt": "25,646,996"
          },
          "exchange": "NMS",
-         "regularMarketTime": 1595275201,
+         "regularMarketTime": 1595275202,
          "volume24Hr": {},
          "regularMarketDayHigh": {
-            "raw": 3201.3599,
-            "fmt": "3,201.36"
+            "raw": 90.85,
+            "fmt": "90.85"
          },
-         "shortName": "Amazon.com, Inc.",
+         "shortName": "Moderna, Inc.",
          "averageDailyVolume10Day": {
-            "raw": 6226816,
-            "fmt": "6.23M",
-            "longFmt": "6,226,816"
+            "raw": 65860850,
+            "fmt": "65.86M",
+            "longFmt": "65,860,850"
          },
-         "longName": "Amazon.com, Inc.",
+         "longName": "Moderna, Inc.",
          "regularMarketChange": {
-            "raw": 234.87012,
-            "fmt": "234.87"
+            "raw": -12.169998,
+            "fmt": "-12.17"
          },
          "currencySymbol": "$",
          "regularMarketPreviousClose": {
-            "raw": 2961.97,
-            "fmt": "2,961.97"
+            "raw": 94.85,
+            "fmt": "94.85"
          },
-         "postMarketTime": 1595289514,
+         "postMarketTime": 1595289591,
          "preMarketPrice": {
-            "raw": 3001.84,
-            "fmt": "3,001.84"
+            "raw": 80.7,
+            "fmt": "80.70"
          },
-         "preMarketTime": 1595251792,
+         "preMarketTime": 1595334834,
          "exchangeDataDelayedBy": 0,
          "toCurrency": null,
          "postMarketChange": {
-            "raw": 11.159912,
-            "fmt": "11.16"
+            "raw": -0.76989746,
+            "fmt": "-0.77"
          },
          "postMarketPrice": {
-            "raw": 3208,
-            "fmt": "3,208.00"
+            "raw": 81.9101,
+            "fmt": "81.91"
          },
          "exchangeName": "NasdaqGS",
          "preMarketChange": {
-            "raw": 39.870117,
-            "fmt": "39.87"
+            "raw": -1.9800034,
+            "fmt": "-1.98"
          },
          "circulatingSupply": {},
          "regularMarketDayLow": {
-            "raw": 2994.017,
-            "fmt": "2,994.02"
+            "raw": 78.05,
+            "fmt": "78.05"
          },
          "priceHint": {
             "raw": 2,
@@ -3164,177 +3155,174 @@
          },
          "currency": "USD",
          "regularMarketPrice": {
-            "raw": 3196.84,
-            "fmt": "3,196.84"
+            "raw": 82.68,
+            "fmt": "82.68"
          },
          "regularMarketVolume": {
-            "raw": 7598176,
-            "fmt": "7.60M",
-            "longFmt": "7,598,176.00"
+            "raw": 78391296,
+            "fmt": "78.39M",
+            "longFmt": "78,391,296.00"
          },
          "lastMarket": null,
          "regularMarketSource": "FREE_REALTIME",
          "openInterest": {},
-         "marketState": "POSTPOST",
+         "marketState": "PRE",
          "underlyingSymbol": null,
          "marketCap": {
-            "raw": 1594507132928,
-            "fmt": "1.59T",
-            "longFmt": "1,594,507,132,928.00"
+            "raw": 30692800512,
+            "fmt": "30.69B",
+            "longFmt": "30,692,800,512.00"
          },
          "quoteType": "EQUITY",
          "preMarketChangePercent": {
-            "raw": 0.013460675,
-            "fmt": "1.35%"
+            "raw": -0.023947792,
+            "fmt": "-2.39%"
          },
          "volumeAllCurrencies": {},
          "postMarketSource": "DELAYED",
          "strikePrice": {},
-         "symbol": "AMZN",
+         "symbol": "MRNA",
          "postMarketChangePercent": {
-            "raw": 0.0034909197,
-            "fmt": "0.35%"
+            "raw": -0.009311774,
+            "fmt": "-0.93%"
          },
          "preMarketSource": "DELAYED",
          "maxAge": 1,
          "fromCurrency": null,
          "regularMarketChangePercent": {
-            "raw": 0.07929524,
-            "fmt": "7.93%"
+            "raw": -0.12830783,
+            "fmt": "-12.83%"
          }
       },
       "financialData": {
          "ebitdaMargins": {
-            "raw": 0.12242,
-            "fmt": "12.24%"
+            "raw": 0,
+            "fmt": "0.00%"
          },
          "profitMargins": {
-            "raw": 0.03565,
-            "fmt": "3.56%"
+            "raw": 0,
+            "fmt": "0.00%"
          },
          "grossMargins": {
-            "raw": 0.40638,
-            "fmt": "40.64%"
+            "raw": 0,
+            "fmt": "0.00%"
          },
          "operatingCashflow": {
-            "raw": 39731998720,
-            "fmt": "39.73B",
-            "longFmt": "39,731,998,720"
+            "raw": -420891008,
+            "fmt": "-420.89M",
+            "longFmt": "-420,891,008"
          },
          "revenueGrowth": {
-            "raw": 0.264,
-            "fmt": "26.40%"
+            "raw": -0.477,
+            "fmt": "-47.70%"
          },
          "operatingMargins": {
-            "raw": 0.04716,
-            "fmt": "4.72%"
+            "raw": -10.1752,
+            "fmt": "-1,017.52%"
          },
          "ebitda": {
-            "raw": 36269998080,
-            "fmt": "36.27B",
-            "longFmt": "36,269,998,080"
+            "raw": -503787008,
+            "fmt": "-503.79M",
+            "longFmt": "-503,787,008"
          },
          "targetLowPrice": {
-            "raw": 1840,
-            "fmt": "1,840.00"
+            "raw": 68,
+            "fmt": "68.00"
          },
          "recommendationKey": "buy",
          "grossProfits": {
-            "raw": 114986000000,
-            "fmt": "114.99B",
-            "longFmt": "114,986,000,000"
+            "raw": -436100000,
+            "fmt": "-436.1M",
+            "longFmt": "-436,100,000"
          },
          "freeCashflow": {
-            "raw": 26716624896,
-            "fmt": "26.72B",
-            "longFmt": "26,716,624,896"
+            "raw": -283439744,
+            "fmt": "-283.44M",
+            "longFmt": "-283,439,744"
          },
          "targetMedianPrice": {
-            "raw": 2875,
-            "fmt": "2,875.00"
+            "raw": 94.5,
+            "fmt": "94.50"
          },
          "currentPrice": {
-            "raw": 3196.84,
-            "fmt": "3,196.84"
+            "raw": 82.68,
+            "fmt": "82.68"
          },
-         "earningsGrowth": {
-            "raw": -0.293,
-            "fmt": "-29.30%"
-         },
+         "earningsGrowth": {},
          "currentRatio": {
-            "raw": 1.079,
-            "fmt": "1.08"
+            "raw": 9.288,
+            "fmt": "9.29"
          },
          "returnOnAssets": {
-            "raw": 0.04374,
-            "fmt": "4.37%"
+            "raw": -0.17262,
+            "fmt": "-17.26%"
          },
          "numberOfAnalystOpinions": {
-            "raw": 46,
-            "fmt": "46",
-            "longFmt": "46"
+            "raw": 12,
+            "fmt": "12",
+            "longFmt": "12"
          },
          "targetMeanPrice": {
-            "raw": 2930.3,
-            "fmt": "2,930.30"
+            "raw": 96.58,
+            "fmt": "96.58"
          },
          "debtToEquity": {
-            "raw": 119.731,
-            "fmt": "119.73"
+            "raw": 9.253,
+            "fmt": "9.25"
          },
          "returnOnEquity": {
-            "raw": 0.18582001,
-            "fmt": "18.58%"
+            "raw": -0.32763,
+            "fmt": "-32.76%"
          },
          "targetHighPrice": {
-            "raw": 3700,
-            "fmt": "3,700.00"
+            "raw": 134,
+            "fmt": "134.00"
          },
          "totalCash": {
-            "raw": 49292001280,
-            "fmt": "49.29B",
-            "longFmt": "49,292,001,280"
+            "raw": 1217700992,
+            "fmt": "1.22B",
+            "longFmt": "1,217,700,992"
          },
          "totalDebt": {
-            "raw": 78151000064,
-            "fmt": "78.15B",
-            "longFmt": "78,151,000,064"
+            "raw": 151836000,
+            "fmt": "151.84M",
+            "longFmt": "151,836,000"
          },
          "totalRevenue": {
-            "raw": 296274001920,
-            "fmt": "296.27B",
-            "longFmt": "296,274,001,920"
+            "raw": 52573000,
+            "fmt": "52.57M",
+            "longFmt": "52,573,000"
          },
          "totalCashPerShare": {
-            "raw": 98.826,
-            "fmt": "98.83"
+            "raw": 3.28,
+            "fmt": "3.28"
          },
          "financialCurrency": "USD",
          "maxAge": 86400,
          "revenuePerShare": {
-            "raw": 597.628,
-            "fmt": "597.63"
+            "raw": 0.156,
+            "fmt": "0.16"
          },
          "quickRatio": {
-            "raw": 0.839,
-            "fmt": "0.84"
+            "raw": 9.188,
+            "fmt": "9.19"
          },
          "recommendationMean": {
-            "raw": 1.7,
-            "fmt": "1.70"
+            "raw": 1.9,
+            "fmt": "1.90"
          }
       },
       "quoteType": {
          "exchange": "NMS",
-         "shortName": "Amazon.com, Inc.",
-         "longName": "Amazon.com, Inc.",
+         "shortName": "Moderna, Inc.",
+         "longName": "Moderna, Inc.",
          "exchangeTimezoneName": "America/New_York",
          "exchangeTimezoneShortName": "EDT",
          "isEsgPopulated": false,
          "gmtOffSetMilliseconds": "-14400000",
          "quoteType": "EQUITY",
-         "symbol": "AMZN",
-         "messageBoardId": "finmb_18749",
+         "symbol": "MRNA",
+         "messageBoardId": "finmb_128680956",
          "market": "us_market"
       },
       "calendarEvents": {
@@ -3342,36 +3330,40 @@
          "earnings": {
             "earningsDate": [
                {
-                  "raw": 1596067200,
-                  "fmt": "2020-07-30"
+                  "raw": 1596585600,
+                  "fmt": "2020-08-05"
+               },
+               {
+                  "raw": 1597017600,
+                  "fmt": "2020-08-10"
                }
             ],
             "earningsAverage": {
-               "raw": 1.34,
-               "fmt": "1.34"
+               "raw": -0.36,
+               "fmt": "-0.36"
             },
             "earningsLow": {
-               "raw": -2.38,
-               "fmt": "-2.38"
+               "raw": -0.53,
+               "fmt": "-0.53"
             },
             "earningsHigh": {
-               "raw": 3.64,
-               "fmt": "3.64"
+               "raw": -0.3,
+               "fmt": "-0.30"
             },
             "revenueAverage": {
-               "raw": 80838200000,
-               "fmt": "80.84B",
-               "longFmt": "80,838,200,000"
+               "raw": 23990000,
+               "fmt": "23.99M",
+               "longFmt": "23,990,000"
             },
             "revenueLow": {
-               "raw": 75153000000,
-               "fmt": "75.15B",
-               "longFmt": "75,153,000,000"
+               "raw": 8400000,
+               "fmt": "8.4M",
+               "longFmt": "8,400,000"
             },
             "revenueHigh": {
-               "raw": 87976000000,
-               "fmt": "87.98B",
-               "longFmt": "87,976,000,000"
+               "raw": 50600000,
+               "fmt": "50.6M",
+               "longFmt": "50,600,000"
             }
          },
          "exDividendDate": {},
@@ -3379,16 +3371,16 @@
       },
       "summaryDetail": {
          "previousClose": {
-            "raw": 2961.97,
-            "fmt": "2,961.97"
+            "raw": 94.85,
+            "fmt": "94.85"
          },
          "regularMarketOpen": {
-            "raw": 3000.2,
-            "fmt": "3,000.20"
+            "raw": 87.86,
+            "fmt": "87.86"
          },
          "twoHundredDayAverage": {
-            "raw": 2252.9219,
-            "fmt": "2,252.92"
+            "raw": 42.14084,
+            "fmt": "42.14"
          },
          "trailingAnnualDividendYield": {},
          "payoutRatio": {
@@ -3397,49 +3389,46 @@
          },
          "volume24Hr": {},
          "regularMarketDayHigh": {
-            "raw": 3201.3599,
-            "fmt": "3,201.36"
+            "raw": 90.85,
+            "fmt": "90.85"
          },
          "navPrice": {},
          "averageDailyVolume10Day": {
-            "raw": 6226816,
-            "fmt": "6.23M",
-            "longFmt": "6,226,816"
+            "raw": 65860850,
+            "fmt": "65.86M",
+            "longFmt": "65,860,850"
          },
          "totalAssets": {},
          "regularMarketPreviousClose": {
-            "raw": 2961.97,
-            "fmt": "2,961.97"
+            "raw": 94.85,
+            "fmt": "94.85"
          },
          "fiftyDayAverage": {
-            "raw": 2763.1365,
-            "fmt": "2,763.14"
+            "raw": 65.253426,
+            "fmt": "65.25"
          },
          "trailingAnnualDividendRate": {},
          "open": {
-            "raw": 3000.2,
-            "fmt": "3,000.20"
+            "raw": 87.86,
+            "fmt": "87.86"
          },
          "toCurrency": null,
          "averageVolume10days": {
-            "raw": 6226816,
-            "fmt": "6.23M",
-            "longFmt": "6,226,816"
+            "raw": 65860850,
+            "fmt": "65.86M",
+            "longFmt": "65,860,850"
          },
          "expireDate": {},
          "yield": {},
          "algorithm": null,
          "dividendRate": {},
          "exDividendDate": {},
-         "beta": {
-            "raw": 1.323809,
-            "fmt": "1.32"
-         },
+         "beta": {},
          "circulatingSupply": {},
          "startDate": {},
          "regularMarketDayLow": {
-            "raw": 2994.017,
-            "fmt": "2,994.02"
+            "raw": 78.05,
+            "fmt": "78.05"
          },
          "priceHint": {
             "raw": 2,
@@ -3447,85 +3436,81 @@
             "longFmt": "2"
          },
          "currency": "USD",
-         "trailingPE": {
-            "raw": 152.69583,
-            "fmt": "152.70"
-         },
          "regularMarketVolume": {
-            "raw": 7598176,
-            "fmt": "7.6M",
-            "longFmt": "7,598,176"
+            "raw": 78391296,
+            "fmt": "78.39M",
+            "longFmt": "78,391,296"
          },
          "lastMarket": null,
          "maxSupply": {},
          "openInterest": {},
          "marketCap": {
-            "raw": 1594507132928,
-            "fmt": "1.59T",
-            "longFmt": "1,594,507,132,928"
+            "raw": 30692800512,
+            "fmt": "30.69B",
+            "longFmt": "30,692,800,512"
          },
          "volumeAllCurrencies": {},
          "strikePrice": {},
          "averageVolume": {
-            "raw": 4691804,
-            "fmt": "4.69M",
-            "longFmt": "4,691,804"
+            "raw": 25646996,
+            "fmt": "25.65M",
+            "longFmt": "25,646,996"
          },
          "priceToSalesTrailing12Months": {
-            "raw": 5.3818665,
-            "fmt": "5.38"
+            "raw": 583.813,
+            "fmt": "583.81"
          },
          "dayLow": {
-            "raw": 2994.017,
-            "fmt": "2,994.02"
+            "raw": 78.05,
+            "fmt": "78.05"
          },
          "ask": {
-            "raw": 3209,
-            "fmt": "3,209.00"
+            "raw": 83,
+            "fmt": "83.00"
          },
          "ytdReturn": {},
          "askSize": {
-            "raw": 900,
-            "fmt": "900",
-            "longFmt": "900"
+            "raw": 1400,
+            "fmt": "1.4k",
+            "longFmt": "1,400"
          },
          "volume": {
-            "raw": 7598176,
-            "fmt": "7.6M",
-            "longFmt": "7,598,176"
+            "raw": 78391296,
+            "fmt": "78.39M",
+            "longFmt": "78,391,296"
          },
          "fiftyTwoWeekHigh": {
-            "raw": 3344.29,
-            "fmt": "3,344.29"
+            "raw": 95.21,
+            "fmt": "95.21"
          },
          "forwardPE": {
-            "raw": 85.31732,
-            "fmt": "85.32"
+            "raw": 114.83333,
+            "fmt": "114.83"
          },
          "maxAge": 1,
          "fromCurrency": null,
          "fiveYearAvgDividendYield": {},
          "fiftyTwoWeekLow": {
-            "raw": 1626.03,
-            "fmt": "1,626.03"
+            "raw": 11.54,
+            "fmt": "11.54"
          },
          "bid": {
-            "raw": 3205.85,
-            "fmt": "3,205.85"
+            "raw": 82.81,
+            "fmt": "82.81"
          },
          "tradeable": false,
          "dividendYield": {},
          "bidSize": {
-            "raw": 900,
-            "fmt": "900",
-            "longFmt": "900"
+            "raw": 800,
+            "fmt": "800",
+            "longFmt": "800"
          },
          "dayHigh": {
-            "raw": 3201.3599,
-            "fmt": "3,201.36"
+            "raw": 90.85,
+            "fmt": "90.85"
          }
       },
-      "symbol": "AMZN",
+      "symbol": "MRNA",
       "pageViews": {
          "shortTermTrend": "UP",
          "midTermTrend": "UP",
@@ -7374,7 +7359,7 @@
          "beaconUncaughtJSError": true,
          "sampleSizeUncaughtJSError": 1,
          "context": {
-            "prid": "aeglsndfhcf30",
+            "prid": "08i1gjhfhdo5p",
             "authed": "0",
             "ynet": "0",
             "ssl": "1",
@@ -8972,7 +8957,7 @@
                "dest": "destDEFAULT",
                "id": "DEFAULT",
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "WPS": {
@@ -8986,7 +8971,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN1": {
@@ -9000,7 +8985,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN1-1": {
@@ -9014,7 +8999,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN": {
@@ -9028,7 +9013,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-1": {
@@ -9042,7 +9027,7 @@
                "metaSize": false,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-2": {
@@ -9056,7 +9041,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-3": {
@@ -9070,7 +9055,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-5": {
@@ -9084,7 +9069,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-6": {
@@ -9098,7 +9083,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-7": {
@@ -9112,7 +9097,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTN-8": {
@@ -9126,7 +9111,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTNA": {
@@ -9140,7 +9125,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTNB": {
@@ -9154,7 +9139,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTNC": {
@@ -9168,7 +9153,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "BTND": {
@@ -9182,7 +9167,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "WIDGET": {
@@ -9196,7 +9181,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "WIDGET-1": {
@@ -9210,7 +9195,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FOOT": {
@@ -9224,7 +9209,7 @@
                "metaSize": false,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FSRVY": {
@@ -9238,7 +9223,7 @@
                "metaSize": false,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "SCREC": {
@@ -9252,7 +9237,7 @@
                "metaSize": false,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC": {
@@ -9273,7 +9258,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC-9": {
@@ -9293,7 +9278,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2": {
@@ -9314,7 +9299,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-4": {
@@ -9336,7 +9321,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-5": {
@@ -9358,7 +9343,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-6": {
@@ -9380,7 +9365,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-7": {
@@ -9402,7 +9387,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-8": {
@@ -9424,7 +9409,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC2-9": {
@@ -9444,7 +9429,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3": {
@@ -9465,7 +9450,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-4": {
@@ -9487,7 +9472,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-5": {
@@ -9509,7 +9494,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-6": {
@@ -9531,7 +9516,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-7": {
@@ -9553,7 +9538,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-8": {
@@ -9575,7 +9560,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC3-9": {
@@ -9595,7 +9580,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC4": {
@@ -9615,7 +9600,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LREC4-9": {
@@ -9635,7 +9620,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB": {
@@ -9655,7 +9640,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB-9": {
@@ -9675,7 +9660,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB2": {
@@ -9695,7 +9680,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB2-1": {
@@ -9715,7 +9700,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB2-2": {
@@ -9735,7 +9720,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB2-3": {
@@ -9755,7 +9740,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "LDRB2-4": {
@@ -9775,7 +9760,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MAST": {
@@ -9805,7 +9790,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MAST-9": {
@@ -9835,7 +9820,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MON": {
@@ -9857,7 +9842,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MON-1": {
@@ -9879,7 +9864,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MON2": {
@@ -9901,7 +9886,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MON2-9": {
@@ -9923,7 +9908,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "MOMENTS": {
@@ -9955,7 +9940,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2": {
@@ -9969,7 +9954,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2-1": {
@@ -9983,7 +9968,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2-2": {
@@ -9997,7 +9982,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2-3": {
@@ -10011,7 +9996,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2A": {
@@ -10025,7 +10010,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2B": {
@@ -10039,7 +10024,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2C": {
@@ -10053,7 +10038,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "FB2D": {
@@ -10067,7 +10052,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4": {
@@ -10081,7 +10066,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4-1": {
@@ -10095,7 +10080,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4-2": {
@@ -10109,7 +10094,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4-3": {
@@ -10123,7 +10108,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4A": {
@@ -10137,7 +10122,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4B": {
@@ -10151,7 +10136,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4C": {
@@ -10165,7 +10150,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "NE4D": {
@@ -10179,7 +10164,7 @@
                "fallback": null,
                "staticLayout": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB": {
@@ -10200,7 +10185,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB-9": {
@@ -10221,7 +10206,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB2": {
@@ -10241,7 +10226,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB2-1": {
@@ -10261,7 +10246,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB2-2": {
@@ -10281,7 +10266,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB2-3": {
@@ -10301,7 +10286,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALDRB2-4": {
@@ -10321,7 +10306,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC": {
@@ -10343,7 +10328,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC-1": {
@@ -10365,7 +10350,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC-9": {
@@ -10387,7 +10372,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC2-9": {
@@ -10409,7 +10394,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC2": {
@@ -10431,7 +10416,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC3": {
@@ -10453,7 +10438,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC3-9": {
@@ -10475,7 +10460,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC4": {
@@ -10497,7 +10482,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "UBALREC4-9": {
@@ -10519,7 +10504,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "WFPAD": {
@@ -10542,7 +10527,7 @@
                "dest": "destWFPAD",
                "fallback": null,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             },
             "SPL": {
@@ -10558,7 +10543,7 @@
                "uhslot": ".YDC-UH",
                "meta": {
                   "type": "stream",
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                },
                "css": ".Mags-FontA{font-family:\"HelveticaNeue\",Helvetica,Arial,sans-serif;font-weight:300;}.Mags-FontA.Size1{font-size:13px;}.Mags-FontA.Size2{font-size:16px;}.Mags-FontA.Size3{font-size:20px;}.Mags-FontA.Size4{font-size:22px;}.Mags-FontA.Size5{font-size:33px;}.Mags-FontA.Size6{font-size:35px;}.Mags-FontA.Size7{font-size:58px;}.Mags-FontA.Size8{font-size:70px;}.Mags-FontA.Size9{font-size:100px;}.Mags-FontB{font-family:Georgia,Times,serif;font-weight:400;}.Mags-FontB.Size1{font-size:18px;}.Mags-FontC{font-family:\"HelveticaNeue\",Helvetica,Arial,sans-serif;font-weight:400;}.Mags-FontC.Size1{font-size:11px;}.Mags-FontC.Size2{font-size:14px;}.Mags-FontC.Size3{font-size:16px;}.Mags-FontC.Size4{font-size:20px;}.Mags-FontC.Size5{font-size:30px;}.Mags-FontC.Size6{font-size:32px;}.Mags-FontC.Size7{font-size:52px;}",
                "clean": "cleanSPL",
@@ -10583,7 +10568,7 @@
                "fallback": null,
                "metaSize": false,
                "meta": {
-                  "hostURL": "https://finance.yahoo.com/quote/AMZN/key-statistics"
+                  "hostURL": "https://finance.yahoo.com/quote/MRNA/key-statistics"
                }
             }
          },
@@ -10933,12 +10918,12 @@
       "adFetchEvent": {
          "ps": "LREC,LREC2,LREC3,FOOT,FSRVY",
          "sp": 959521856,
-         "sa": " ticker=AMZN Y-BUCKET=finance-US-en-US-def LREC=300x250,1x1 rs=\"pt:utility;site:finance;ver:ydotcom\" migration=1",
+         "sa": " ticker=MRNA Y-BUCKET=finance-US-en-US-def LREC=300x250,1x1 rs=\"pt:utility;site:finance;ver:ydotcom\" migration=1",
          "optionalps": "",
          "launchViewportAdSlot": [],
          "site": "finance"
       },
-      "siteAttrs": " ticker=AMZN Y-BUCKET=finance-US-en-US-def LREC=300x250,1x1 rs=\"pt:utility;site:finance;ver:ydotcom\" migration=1",
+      "siteAttrs": " ticker=MRNA Y-BUCKET=finance-US-en-US-def LREC=300x250,1x1 rs=\"pt:utility;site:finance;ver:ydotcom\" migration=1",
       "autoAdRender": true,
       "supportMultipleRenderTargets": true,
       "darlaJsAtTop": true,
@@ -12561,7 +12546,7 @@
       }
    },
    "CrumbStore": {
-      "crumb": "q7alSFflvkE"
+      "crumb": "m2C5var/cnv"
    },
    "CompositeStore": {
       "_instances": {
@@ -12593,8 +12578,8 @@
          "term": "",
          "label": ""
       },
-      "pageCategory": "YFINANCE:AMZN",
-      "fallbackCategory": "YFINANCE:AMZN",
+      "pageCategory": "YFINANCE:MRNA",
+      "fallbackCategory": "YFINANCE:MRNA",
       "pageSubsite": ""
    },
    "UserStore": {
@@ -13481,41 +13466,41 @@
    },
    "QuoteTimeSeriesStore": {
       "timeSeries": {
-         "quarterlyPbRatio": [
+         "quarterlyEnterprisesValueEBITDARatio": [
             {
-               "dataId": 14012,
+               "dataId": 102,
                "asOfDate": "2019-06-30",
                "periodType": "3M",
                "reportedValue": {
-                  "raw": 19.323553,
-                  "fmt": "19.32"
+                  "raw": -29.609237,
+                  "fmt": "-29.61"
                }
             },
             {
-               "dataId": 14012,
+               "dataId": 102,
                "asOfDate": "2019-09-30",
                "periodType": "3M",
                "reportedValue": {
-                  "raw": 16.194106,
-                  "fmt": "16.19"
+                  "raw": -37.154419,
+                  "fmt": "-37.15"
                }
             },
             {
-               "dataId": 14012,
+               "dataId": 102,
                "asOfDate": "2019-12-31",
                "periodType": "3M",
                "reportedValue": {
-                  "raw": 16.28485,
-                  "fmt": "16.28"
+                  "raw": -49.469292,
+                  "fmt": "-49.47"
                }
             },
             {
-               "dataId": 14012,
+               "dataId": 102,
                "asOfDate": "2020-03-31",
                "periodType": "3M",
                "reportedValue": {
-                  "raw": 15.67693,
-                  "fmt": "15.68"
+                  "raw": -87.909873,
+                  "fmt": "-87.91"
                }
             }
          ],
@@ -13525,227 +13510,17 @@
                "asOfDate": "2020-03-05",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 3.45681,
-                  "fmt": "3.46"
+                  "raw": 153.893402,
+                  "fmt": "153.89"
                }
             },
             {
                "dataId": 14010,
-               "asOfDate": "2020-05-08",
+               "asOfDate": "2020-07-20",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 4.056053,
-                  "fmt": "4.06"
-               }
-            },
-            {
-               "dataId": 14010,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 5.113339,
-                  "fmt": "5.11"
-               }
-            }
-         ],
-         "quarterlyMarketCap": [
-            {
-               "dataId": 40001,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 932294220986,
-                  "fmt": "932.29B"
-               }
-            },
-            {
-               "dataId": 40001,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 859275450000,
-                  "fmt": "859.28B"
-               }
-            },
-            {
-               "dataId": 40001,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 920224320000,
-                  "fmt": "920.22B"
-               }
-            },
-            {
-               "dataId": 40001,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 972910280000,
-                  "fmt": "972.91B"
-               }
-            }
-         ],
-         "quarterlyForwardPeRatio": [
-            {
-               "dataId": 14020,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 58.8235,
-                  "fmt": "58.82"
-               }
-            },
-            {
-               "dataId": 14020,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 44.843,
-                  "fmt": "44.84"
-               }
-            },
-            {
-               "dataId": 14020,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 58.1395,
-                  "fmt": "58.14"
-               }
-            },
-            {
-               "dataId": 14020,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 66.2252,
-                  "fmt": "66.23"
-               }
-            }
-         ],
-         "trailingPegRatio": [
-            {
-               "dataId": 14021,
-               "asOfDate": "2020-03-05",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 1.4816,
-                  "fmt": "1.48"
-               }
-            },
-            {
-               "dataId": 14021,
-               "asOfDate": "2020-05-08",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 2.2145,
-                  "fmt": "2.21"
-               }
-            },
-            {
-               "dataId": 14021,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 3.2314,
-                  "fmt": "3.23"
-               }
-            }
-         ],
-         "trailingMarketCap": [
-            {
-               "dataId": 40001,
-               "asOfDate": "2020-03-05",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 957802228569,
-                  "fmt": "957.80B"
-               }
-            },
-            {
-               "dataId": 40001,
-               "asOfDate": "2020-05-08",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 1186892433507,
-                  "fmt": "1.19T"
-               }
-            },
-            {
-               "dataId": 40001,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 1496278218396,
-                  "fmt": "1.50T"
-               }
-            }
-         ],
-         "trailingEnterprisesValueEBITDARatio": [
-            {
-               "dataId": 102,
-               "asOfDate": "2020-03-08",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 25.852702,
-                  "fmt": "25.85"
-               }
-            },
-            {
-               "dataId": 102,
-               "asOfDate": "2020-05-11",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 32.564513,
-                  "fmt": "32.56"
-               }
-            },
-            {
-               "dataId": 102,
-               "asOfDate": "2020-07-18",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 40.950997,
-                  "fmt": "40.95"
-               }
-            }
-         ],
-         "quarterlyPeRatio": [
-            {
-               "dataId": 14008,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 79.032972,
-                  "fmt": "79.03"
-               }
-            },
-            {
-               "dataId": 14008,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 71.999585,
-                  "fmt": "72.00"
-               }
-            },
-            {
-               "dataId": 14008,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 81.871511,
-                  "fmt": "81.87"
-               }
-            },
-            {
-               "dataId": 14008,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 84.733594,
-                  "fmt": "84.73"
+                  "raw": 529.794742,
+                  "fmt": "529.79"
                }
             }
          ],
@@ -13755,303 +13530,55 @@
                "asOfDate": "2020-03-05",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 965986228569,
-                  "fmt": "965.99B"
+                  "raw": 9355041769,
+                  "fmt": "9.36B"
                }
             },
             {
                "dataId": 40002,
-               "asOfDate": "2020-05-08",
+               "asOfDate": "2020-07-20",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 1201337433507,
-                  "fmt": "1.20T"
-               }
-            },
-            {
-               "dataId": 40002,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 1510723218396,
-                  "fmt": "1.51T"
+                  "raw": 29622974158,
+                  "fmt": "29.62B"
                }
             }
          ],
-         "quarterlyPsRatio": [
-            {
-               "dataId": 14010,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 3.927668,
-                  "fmt": "3.93"
-               }
-            },
-            {
-               "dataId": 14010,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 3.457179,
-                  "fmt": "3.46"
-               }
-            },
-            {
-               "dataId": 14010,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 3.495993,
-                  "fmt": "3.50"
-               }
-            },
-            {
-               "dataId": 14010,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 3.502965,
-                  "fmt": "3.50"
-               }
-            }
-         ],
-         "quarterlyEnterprisesValueRevenueRatio": [
-            {
-               "dataId": 101,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 15.012794,
-                  "fmt": "15.01"
-               }
-            },
-            {
-               "dataId": 101,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 12.521619,
-                  "fmt": "12.52"
-               }
-            },
-            {
-               "dataId": 101,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 10.709014,
-                  "fmt": "10.71"
-               }
-            },
-            {
-               "dataId": 101,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 13.002893,
-                  "fmt": "13.00"
-               }
-            }
-         ],
-         "quarterlyEnterpriseValue": [
-            {
-               "dataId": 40002,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 951871220986,
-                  "fmt": "951.87B"
-               }
-            },
-            {
-               "dataId": 40002,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 876275450000,
-                  "fmt": "876.28B"
-               }
-            },
-            {
-               "dataId": 40002,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 936353320000,
-                  "fmt": "936.35B"
-               }
-            },
-            {
-               "dataId": 40002,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 981094280000,
-                  "fmt": "981.09B"
-               }
-            }
-         ],
-         "trailingPeRatio": [
-            {
-               "dataId": 14008,
-               "asOfDate": "2020-03-05",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 83.617123,
-                  "fmt": "83.62"
-               }
-            },
-            {
-               "dataId": 14008,
-               "asOfDate": "2020-05-08",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 113.693741,
-                  "fmt": "113.69"
-               }
-            },
-            {
-               "dataId": 14008,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 143.330148,
-                  "fmt": "143.33"
-               }
-            }
-         ],
-         "trailingForwardPeRatio": [
-            {
-               "dataId": 14020,
-               "asOfDate": "2020-03-05",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 65.3595,
-                  "fmt": "65.36"
-               }
-            },
-            {
-               "dataId": 14020,
-               "asOfDate": "2020-05-08",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 96.1538,
-                  "fmt": "96.15"
-               }
-            },
-            {
-               "dataId": 14020,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 138.8889,
-                  "fmt": "138.89"
-               }
-            }
-         ],
-         "quarterlyPegRatio": [
-            {
-               "dataId": 14021,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 1.319,
-                  "fmt": "1.32"
-               }
-            },
-            {
-               "dataId": 14021,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 1.0151,
-                  "fmt": "1.02"
-               }
-            },
-            {
-               "dataId": 14021,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 1.3207,
-                  "fmt": "1.32"
-               }
-            },
-            {
-               "dataId": 14021,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 1.5014,
-                  "fmt": "1.50"
-               }
-            }
-         ],
-         "quarterlyEnterprisesValueEBITDARatio": [
-            {
-               "dataId": 102,
-               "asOfDate": "2019-06-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 112.328442,
-                  "fmt": "112.33"
-               }
-            },
-            {
-               "dataId": 102,
-               "asOfDate": "2019-09-30",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 101.999238,
-                  "fmt": "102.00"
-               }
-            },
-            {
-               "dataId": 102,
-               "asOfDate": "2019-12-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 87.689953,
-                  "fmt": "87.69"
-               }
-            },
-            {
-               "dataId": 102,
-               "asOfDate": "2020-03-31",
-               "periodType": "3M",
-               "reportedValue": {
-                  "raw": 107.258585,
-                  "fmt": "107.26"
-               }
-            }
-         ],
-         "trailingPbRatio": [
+         "quarterlyPbRatio": [
             {
                "dataId": 14012,
-               "asOfDate": "2020-03-05",
-               "periodType": "TTM",
+               "asOfDate": "2019-06-30",
+               "periodType": "3M",
                "reportedValue": {
-                  "raw": 15.433487,
-                  "fmt": "15.43"
+                  "raw": 3.340579,
+                  "fmt": "3.34"
                }
             },
             {
                "dataId": 14012,
-               "asOfDate": "2020-05-08",
-               "periodType": "TTM",
+               "asOfDate": "2019-09-30",
+               "periodType": "3M",
                "reportedValue": {
-                  "raw": 18.183791,
-                  "fmt": "18.18"
+                  "raw": 3.954504,
+                  "fmt": "3.95"
                }
             },
             {
                "dataId": 14012,
-               "asOfDate": "2020-07-16",
-               "periodType": "TTM",
+               "asOfDate": "2019-12-31",
+               "periodType": "3M",
                "reportedValue": {
-                  "raw": 22.923738,
-                  "fmt": "22.92"
+                  "raw": 5.258529,
+                  "fmt": "5.26"
+               }
+            },
+            {
+               "dataId": 14012,
+               "asOfDate": "2020-03-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 9.43521,
+                  "fmt": "9.44"
                }
             }
          ],
@@ -14061,29 +13588,238 @@
                "asOfDate": "2020-03-08",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 3.443531,
-                  "fmt": "3.44"
+                  "raw": 155.376136,
+                  "fmt": "155.38"
                }
             },
             {
                "dataId": 101,
-               "asOfDate": "2020-05-11",
+               "asOfDate": "2020-07-21",
                "periodType": "TTM",
                "reportedValue": {
-                  "raw": 4.054819,
-                  "fmt": "4.05"
-               }
-            },
-            {
-               "dataId": 101,
-               "asOfDate": "2020-07-18",
-               "periodType": "TTM",
-               "reportedValue": {
-                  "raw": 5.099075,
-                  "fmt": "5.10"
+                  "raw": 563.463644,
+                  "fmt": "563.46"
                }
             }
          ],
+         "quarterlyEnterprisesValueRevenueRatio": [
+            {
+               "dataId": 101,
+               "asOfDate": "2019-06-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 285.948779,
+                  "fmt": "285.95"
+               }
+            },
+            {
+               "dataId": 101,
+               "asOfDate": "2019-09-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 249.710128,
+                  "fmt": "249.71"
+               }
+            },
+            {
+               "dataId": 101,
+               "asOfDate": "2019-12-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 395.441083,
+                  "fmt": "395.44"
+               }
+            },
+            {
+               "dataId": 101,
+               "asOfDate": "2020-03-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 1205.619622,
+                  "fmt": "1.21k"
+               }
+            }
+         ],
+         "trailingPbRatio": [
+            {
+               "dataId": 14012,
+               "asOfDate": "2020-03-05",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": 8.789232,
+                  "fmt": "8.79"
+               }
+            },
+            {
+               "dataId": 14012,
+               "asOfDate": "2020-07-20",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": 18.705569,
+                  "fmt": "18.71"
+               }
+            }
+         ],
+         "quarterlyEnterpriseValue": [
+            {
+               "dataId": 40002,
+               "asOfDate": "2019-06-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 3741067872,
+                  "fmt": "3.74B"
+               }
+            },
+            {
+               "dataId": 40002,
+               "asOfDate": "2019-09-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 4256558849,
+                  "fmt": "4.26B"
+               }
+            },
+            {
+               "dataId": 40002,
+               "asOfDate": "2019-12-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 5557924426,
+                  "fmt": "5.56B"
+               }
+            },
+            {
+               "dataId": 40002,
+               "asOfDate": "2020-03-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 10113943009,
+                  "fmt": "10.11B"
+               }
+            }
+         ],
+         "quarterlyMarketCap": [
+            {
+               "dataId": 40001,
+               "asOfDate": "2019-06-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 4816607872,
+                  "fmt": "4.82B"
+               }
+            },
+            {
+               "dataId": 40001,
+               "asOfDate": "2019-09-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 5293316849,
+                  "fmt": "5.29B"
+               }
+            },
+            {
+               "dataId": 40001,
+               "asOfDate": "2019-12-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 6582663426,
+                  "fmt": "6.58B"
+               }
+            },
+            {
+               "dataId": 40001,
+               "asOfDate": "2020-03-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 11084579009,
+                  "fmt": "11.08B"
+               }
+            }
+         ],
+         "quarterlyPsRatio": [
+            {
+               "dataId": 14010,
+               "asOfDate": "2019-06-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 39.444942,
+                  "fmt": "39.44"
+               }
+            },
+            {
+               "dataId": 14010,
+               "asOfDate": "2019-09-30",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 49.422634,
+                  "fmt": "49.42"
+               }
+            },
+            {
+               "dataId": 14010,
+               "asOfDate": "2019-12-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 79.72538,
+                  "fmt": "79.73"
+               }
+            },
+            {
+               "dataId": 14010,
+               "asOfDate": "2020-03-31",
+               "periodType": "3M",
+               "reportedValue": {
+                  "raw": 164.552209,
+                  "fmt": "164.55"
+               }
+            }
+         ],
+         "trailingEnterprisesValueEBITDARatio": [
+            {
+               "dataId": 102,
+               "asOfDate": "2020-03-08",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": -19.608835,
+                  "fmt": "-19.61"
+               }
+            },
+            {
+               "dataId": 102,
+               "asOfDate": "2020-07-21",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": -63.245465,
+                  "fmt": "-63.25"
+               }
+            }
+         ],
+         "trailingMarketCap": [
+            {
+               "dataId": 40001,
+               "asOfDate": "2020-03-05",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": 10325677769,
+                  "fmt": "10.33B"
+               }
+            },
+            {
+               "dataId": 40001,
+               "asOfDate": "2020-07-20",
+               "periodType": "TTM",
+               "reportedValue": {
+                  "raw": 30692789158,
+                  "fmt": "30.69B"
+               }
+            }
+         ],
+         "trailingForwardPeRatio": [],
+         "quarterlyPegRatio": [],
+         "quarterlyPeRatio": [],
+         "trailingPeRatio": [],
+         "trailingPegRatio": [],
+         "quarterlyForwardPeRatio": [],
          "timestamp": [
             1561852800,
             1569801600,
@@ -14092,9 +13828,9 @@
          ]
       },
       "meta": {
-         "symbol": "AMZN",
+         "symbol": "MRNA",
          "start": 493590046,
-         "end": 1595292769,
+         "end": 1595334842,
          "timeUnit": "quarterly"
       },
       "loading": false,
@@ -14342,7 +14078,7 @@
    },
    "UHAccountSwitchStore": {
       "site": "finance",
-      "crumb": "4kyXsm3FfB5",
+      "crumb": "u4eUPrC4Aiu",
       "sendRequest": false,
       "isEnabled": true
    },
@@ -14353,13 +14089,13 @@
    },
    "RecommendationStore": {
       "recommendedSymbols": {
-         "AMZN": [
+         "MRNA": [
             {
                "sourceInterval": 15,
                "quoteSourceName": "Delayed Quote",
                "regularMarketOpen": {
-                  "raw": 240.06,
-                  "fmt": "240.06"
+                  "raw": 26.97,
+                  "fmt": "26.97"
                },
                "exchange": "NMS",
                "regularMarketTime": {
@@ -14367,96 +14103,96 @@
                   "fmt": "4:00PM EDT"
                },
                "fiftyTwoWeekRange": {
-                  "raw": "137.1 - 250.15",
-                  "fmt": "137.10 - 250.15"
+                  "raw": "1.92 - 33.79",
+                  "fmt": "1.92 - 33.79"
                },
                "sharesOutstanding": {
-                  "raw": 2408470016,
-                  "fmt": "2.408B",
-                  "longFmt": "2,408,470,016"
+                  "raw": 158096000,
+                  "fmt": "158.096M",
+                  "longFmt": "158,096,000"
                },
                "regularMarketDayHigh": {
-                  "raw": 246.05,
-                  "fmt": "246.05"
+                  "raw": 27.5,
+                  "fmt": "27.50"
                },
-               "shortName": "Facebook, Inc.",
-               "longName": "Facebook, Inc.",
+               "shortName": "Inovio Pharmaceuticals, Inc.",
+               "longName": "Inovio Pharmaceuticals, Inc.",
                "exchangeTimezoneName": "America/New_York",
                "regularMarketChange": {
-                  "raw": 3.3899994,
-                  "fmt": "3.39"
+                  "raw": -1.5999985,
+                  "fmt": "-1.60"
                },
                "regularMarketPreviousClose": {
-                  "raw": 242.03,
-                  "fmt": "242.03"
+                  "raw": 26.97,
+                  "fmt": "26.97"
                },
                "fiftyTwoWeekHighChange": {
-                  "raw": -4.7299957,
-                  "fmt": "-4.73"
+                  "raw": -8.42,
+                  "fmt": "-8.42"
                },
                "exchangeTimezoneShortName": "EDT",
                "fiftyTwoWeekLowChange": {
-                  "raw": 108.31999,
-                  "fmt": "108.32"
+                  "raw": 23.45,
+                  "fmt": "23.45"
                },
                "exchangeDataDelayedBy": 0,
                "regularMarketDayLow": {
-                  "raw": 235.635,
-                  "fmt": "235.63"
+                  "raw": 24.1,
+                  "fmt": "24.10"
                },
                "priceHint": 2,
                "currency": "USD",
                "regularMarketPrice": {
-                  "raw": 245.42,
-                  "fmt": "245.42"
+                  "raw": 25.37,
+                  "fmt": "25.37"
                },
                "regularMarketVolume": {
-                  "raw": 20872223,
-                  "fmt": "20.872M",
-                  "longFmt": "20,872,223"
+                  "raw": 21180479,
+                  "fmt": "21.18M",
+                  "longFmt": "21,180,479"
                },
                "isLoading": false,
-               "score": 0.284473,
+               "score": 0.210378,
                "triggerable": true,
                "gmtOffSetMilliseconds": -14400000,
-               "firstTradeDateMilliseconds": 1337347800000,
+               "firstTradeDateMilliseconds": 913127400000,
                "region": "US",
-               "marketState": "POSTPOST",
+               "marketState": "PRE",
                "marketCap": {
-                  "raw": 700188131328,
-                  "fmt": "700.188B",
-                  "longFmt": "700,188,131,328"
+                  "raw": 4010895616,
+                  "fmt": "4.011B",
+                  "longFmt": "4,010,895,616"
                },
                "quoteType": "EQUITY",
                "invalid": false,
-               "symbol": "FB",
+               "symbol": "INO",
                "language": "en-US",
                "fiftyTwoWeekLowChangePercent": {
-                  "raw": 0.79008013,
-                  "fmt": "79.01%"
+                  "raw": 12.213542,
+                  "fmt": "1,221.35%"
                },
                "regularMarketDayRange": {
-                  "raw": "235.635 - 246.05",
-                  "fmt": "235.63 - 246.05"
+                  "raw": "24.1 - 27.5",
+                  "fmt": "24.10 - 27.50"
                },
-               "messageBoardId": "finmb_20765463",
+               "messageBoardId": "finmb_28922",
                "fiftyTwoWeekHigh": {
-                  "raw": 250.15,
-                  "fmt": "250.15"
+                  "raw": 33.79,
+                  "fmt": "33.79"
                },
                "fiftyTwoWeekHighChangePercent": {
-                  "raw": -0.018908639,
-                  "fmt": "-1.89%"
+                  "raw": -0.24918614,
+                  "fmt": "-24.92%"
                },
-               "uuid": "30781f1f-c2f9-342c-ab1a-d2f6f35a51db",
+               "uuid": "ac020a93-0ebc-3108-95e6-c7f296b9daee",
                "market": "us_market",
                "fiftyTwoWeekLow": {
-                  "raw": 137.1,
-                  "fmt": "137.10"
+                  "raw": 1.92,
+                  "fmt": "1.92"
                },
                "regularMarketChangePercent": {
-                  "raw": 1.4006525,
-                  "fmt": "1.40%"
+                  "raw": -5.9325123,
+                  "fmt": "-5.93%"
                },
                "fullExchangeName": "NasdaqGS",
                "tradeable": false
@@ -14465,8 +14201,8 @@
                "sourceInterval": 15,
                "quoteSourceName": "Delayed Quote",
                "regularMarketOpen": {
-                  "raw": 1515.26,
-                  "fmt": "1,515.26"
+                  "raw": 149.49,
+                  "fmt": "149.49"
                },
                "exchange": "NMS",
                "regularMarketTime": {
@@ -14474,96 +14210,96 @@
                   "fmt": "4:00PM EDT"
                },
                "fiftyTwoWeekRange": {
-                  "raw": "1013.536 - 1577.132",
-                  "fmt": "1,013.54 - 1,577.13"
+                  "raw": "3.54 - 151.2",
+                  "fmt": "3.54 - 151.20"
                },
                "sharesOutstanding": {
-                  "raw": 336161984,
-                  "fmt": "336.162M",
-                  "longFmt": "336,161,984"
+                  "raw": 58687800,
+                  "fmt": "58.688M",
+                  "longFmt": "58,687,800"
                },
                "regularMarketDayHigh": {
-                  "raw": 1570.27,
-                  "fmt": "1,570.27"
+                  "raw": 151.2,
+                  "fmt": "151.20"
                },
-               "shortName": "Alphabet Inc.",
-               "longName": "Alphabet Inc.",
+               "shortName": "Novavax, Inc.",
+               "longName": "Novavax, Inc.",
                "exchangeTimezoneName": "America/New_York",
                "regularMarketChange": {
-                  "raw": 50.16992,
-                  "fmt": "50.17"
+                  "raw": -2.2600098,
+                  "fmt": "-2.26"
                },
                "regularMarketPreviousClose": {
-                  "raw": 1515.55,
-                  "fmt": "1,515.55"
+                  "raw": 140.49,
+                  "fmt": "140.49"
                },
                "fiftyTwoWeekHighChange": {
-                  "raw": -11.411987,
-                  "fmt": "-11.41"
+                  "raw": -12.970001,
+                  "fmt": "-12.97"
                },
                "exchangeTimezoneShortName": "EDT",
                "fiftyTwoWeekLowChange": {
-                  "raw": 552.18396,
-                  "fmt": "552.18"
+                  "raw": 134.69,
+                  "fmt": "134.69"
                },
                "exchangeDataDelayedBy": 0,
                "regularMarketDayLow": {
-                  "raw": 1503.82,
-                  "fmt": "1,503.82"
+                  "raw": 124.1,
+                  "fmt": "124.10"
                },
                "priceHint": 2,
                "currency": "USD",
                "regularMarketPrice": {
-                  "raw": 1565.72,
-                  "fmt": "1,565.72"
+                  "raw": 138.23,
+                  "fmt": "138.23"
                },
                "regularMarketVolume": {
-                  "raw": 1557252,
-                  "fmt": "1.557M",
-                  "longFmt": "1,557,252"
+                  "raw": 12934461,
+                  "fmt": "12.934M",
+                  "longFmt": "12,934,461"
                },
                "isLoading": false,
-               "score": 0.277536,
+               "score": 0.188601,
                "triggerable": true,
                "gmtOffSetMilliseconds": -14400000,
-               "firstTradeDateMilliseconds": 1092922200000,
+               "firstTradeDateMilliseconds": 818173800000,
                "region": "US",
-               "marketState": "POSTPOST",
+               "marketState": "PRE",
                "marketCap": {
-                  "raw": 1069256802304,
-                  "fmt": "1.069T",
-                  "longFmt": "1,069,256,802,304"
+                  "raw": 8112414208,
+                  "fmt": "8.112B",
+                  "longFmt": "8,112,414,208"
                },
                "quoteType": "EQUITY",
                "invalid": false,
-               "symbol": "GOOG",
+               "symbol": "NVAX",
                "language": "en-US",
                "fiftyTwoWeekLowChangePercent": {
-                  "raw": 0.5448094,
-                  "fmt": "54.48%"
+                  "raw": 38.048023,
+                  "fmt": "3,804.80%"
                },
                "regularMarketDayRange": {
-                  "raw": "1503.82 - 1570.27",
-                  "fmt": "1,503.82 - 1,570.27"
+                  "raw": "124.1 - 151.2",
+                  "fmt": "124.10 - 151.20"
                },
-               "messageBoardId": "finmb_29096",
+               "messageBoardId": "finmb_350381",
                "fiftyTwoWeekHigh": {
-                  "raw": 1577.132,
-                  "fmt": "1,577.13"
+                  "raw": 151.2,
+                  "fmt": "151.20"
                },
                "fiftyTwoWeekHighChangePercent": {
-                  "raw": -0.0072359117,
-                  "fmt": "-0.72%"
+                  "raw": -0.085780434,
+                  "fmt": "-8.58%"
                },
-               "uuid": "ee8cce8c-2475-31c0-8436-ecdf889cbfbd",
+               "uuid": "cdb3cddb-5091-3918-86d6-9b4894e61c6c",
                "market": "us_market",
                "fiftyTwoWeekLow": {
-                  "raw": 1013.536,
-                  "fmt": "1,013.54"
+                  "raw": 3.54,
+                  "fmt": "3.54"
                },
                "regularMarketChangePercent": {
-                  "raw": 3.310344,
-                  "fmt": "3.31%"
+                  "raw": -1.6086624,
+                  "fmt": "-1.61%"
                },
                "fullExchangeName": "NasdaqGS",
                "tradeable": false
@@ -14572,8 +14308,8 @@
                "sourceInterval": 15,
                "quoteSourceName": "Delayed Quote",
                "regularMarketOpen": {
-                  "raw": 385.665,
-                  "fmt": "385.67"
+                  "raw": 246.486,
+                  "fmt": "246.49"
                },
                "exchange": "NMS",
                "regularMarketTime": {
@@ -14581,96 +14317,96 @@
                   "fmt": "4:00PM EDT"
                },
                "fiftyTwoWeekRange": {
-                  "raw": "192.58 - 399.82",
-                  "fmt": "192.58 - 399.82"
+                  "raw": "60.968 - 281.0",
+                  "fmt": "60.97 - 281.00"
                },
                "sharesOutstanding": {
-                  "raw": 4334329856,
-                  "fmt": "4.334B",
-                  "longFmt": "4,334,329,856"
+                  "raw": 182106000,
+                  "fmt": "182.106M",
+                  "longFmt": "182,106,000"
                },
                "regularMarketDayHigh": {
-                  "raw": 393.92,
-                  "fmt": "393.92"
+                  "raw": 271.35,
+                  "fmt": "271.35"
                },
-               "shortName": "Apple Inc.",
-               "longName": "Apple Inc.",
+               "shortName": "Zoom Video Communications, Inc.",
+               "longName": "Zoom Video Communications, Inc.",
                "exchangeTimezoneName": "America/New_York",
                "regularMarketChange": {
-                  "raw": 8.119995,
-                  "fmt": "8.12"
+                  "raw": 22.039993,
+                  "fmt": "22.04"
                },
                "regularMarketPreviousClose": {
-                  "raw": 385.31,
-                  "fmt": "385.31"
+                  "raw": 246.54,
+                  "fmt": "246.54"
                },
                "fiftyTwoWeekHighChange": {
-                  "raw": -6.3900146,
-                  "fmt": "-6.39"
+                  "raw": -12.420013,
+                  "fmt": "-12.42"
                },
                "exchangeTimezoneShortName": "EDT",
                "fiftyTwoWeekLowChange": {
-                  "raw": 200.84999,
-                  "fmt": "200.85"
+                  "raw": 207.61198,
+                  "fmt": "207.61"
                },
                "exchangeDataDelayedBy": 0,
                "regularMarketDayLow": {
-                  "raw": 384.25,
-                  "fmt": "384.25"
+                  "raw": 245.99,
+                  "fmt": "245.99"
                },
                "priceHint": 2,
                "currency": "USD",
                "regularMarketPrice": {
-                  "raw": 393.43,
-                  "fmt": "393.43"
+                  "raw": 268.58,
+                  "fmt": "268.58"
                },
                "regularMarketVolume": {
-                  "raw": 22579477,
-                  "fmt": "22.579M",
-                  "longFmt": "22,579,477"
+                  "raw": 9719213,
+                  "fmt": "9.719M",
+                  "longFmt": "9,719,213"
                },
                "isLoading": false,
-               "score": 0.276392,
+               "score": 0.134475,
                "triggerable": true,
                "gmtOffSetMilliseconds": -14400000,
-               "firstTradeDateMilliseconds": 345479400000,
+               "firstTradeDateMilliseconds": 1555594200000,
                "region": "US",
-               "marketState": "POSTPOST",
+               "marketState": "PRE",
                "marketCap": {
-                  "raw": 1705255370752,
-                  "fmt": "1.705T",
-                  "longFmt": "1,705,255,370,752"
+                  "raw": 75767218176,
+                  "fmt": "75.767B",
+                  "longFmt": "75,767,218,176"
                },
                "quoteType": "EQUITY",
                "invalid": false,
-               "symbol": "AAPL",
+               "symbol": "ZM",
                "language": "en-US",
                "fiftyTwoWeekLowChangePercent": {
-                  "raw": 1.0429431,
-                  "fmt": "104.29%"
+                  "raw": 3.4052615,
+                  "fmt": "340.53%"
                },
                "regularMarketDayRange": {
-                  "raw": "384.25 - 393.92",
-                  "fmt": "384.25 - 393.92"
+                  "raw": "245.99 - 271.35",
+                  "fmt": "245.99 - 271.35"
                },
-               "messageBoardId": "finmb_24937",
+               "messageBoardId": "finmb_223236753",
                "fiftyTwoWeekHigh": {
-                  "raw": 399.82,
-                  "fmt": "399.82"
+                  "raw": 281,
+                  "fmt": "281.00"
                },
                "fiftyTwoWeekHighChangePercent": {
-                  "raw": -0.015982227,
-                  "fmt": "-1.60%"
+                  "raw": -0.044199336,
+                  "fmt": "-4.42%"
                },
-               "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
+               "uuid": "70f73ee5-133f-39c2-b135-16067fabfd87",
                "market": "us_market",
                "fiftyTwoWeekLow": {
-                  "raw": 192.58,
-                  "fmt": "192.58"
+                  "raw": 60.968,
+                  "fmt": "60.97"
                },
                "regularMarketChangePercent": {
-                  "raw": 2.1073928,
-                  "fmt": "2.11%"
+                  "raw": 8.939724,
+                  "fmt": "8.94%"
                },
                "fullExchangeName": "NasdaqGS",
                "tradeable": false
@@ -14679,8 +14415,8 @@
                "sourceInterval": 15,
                "quoteSourceName": "Delayed Quote",
                "regularMarketOpen": {
-                  "raw": 489.14,
-                  "fmt": "489.14"
+                  "raw": 16.5665,
+                  "fmt": "16.57"
                },
                "exchange": "NMS",
                "regularMarketTime": {
@@ -14688,96 +14424,96 @@
                   "fmt": "4:00PM EDT"
                },
                "fiftyTwoWeekRange": {
-                  "raw": "252.28 - 575.37",
-                  "fmt": "252.28 - 575.37"
+                  "raw": "0.25 - 17.49",
+                  "fmt": "0.25 - 17.49"
                },
                "sharesOutstanding": {
-                  "raw": 439804000,
-                  "fmt": "439.804M",
-                  "longFmt": "439,804,000"
+                  "raw": 109094000,
+                  "fmt": "109.094M",
+                  "longFmt": "109,094,000"
                },
                "regularMarketDayHigh": {
-                  "raw": 504.5,
-                  "fmt": "504.50"
+                  "raw": 16.87,
+                  "fmt": "16.87"
                },
-               "shortName": "Netflix, Inc.",
-               "longName": "Netflix, Inc.",
+               "shortName": "Vaxart, Inc. - Common Stock",
+               "longName": "Vaxart, Inc.",
                "exchangeTimezoneName": "America/New_York",
                "regularMarketChange": {
-                  "raw": 9.420013,
-                  "fmt": "9.42"
+                  "raw": -0.5600004,
+                  "fmt": "-0.56"
                },
                "regularMarketPreviousClose": {
-                  "raw": 492.99,
-                  "fmt": "492.99"
+                  "raw": 15.75,
+                  "fmt": "15.75"
                },
                "fiftyTwoWeekHighChange": {
-                  "raw": -72.95999,
-                  "fmt": "-72.96"
+                  "raw": -2.3000002,
+                  "fmt": "-2.30"
                },
                "exchangeTimezoneShortName": "EDT",
                "fiftyTwoWeekLowChange": {
-                  "raw": 250.13,
-                  "fmt": "250.13"
+                  "raw": 14.94,
+                  "fmt": "14.94"
                },
                "exchangeDataDelayedBy": 0,
                "regularMarketDayLow": {
-                  "raw": 484.219,
-                  "fmt": "484.22"
+                  "raw": 14.77,
+                  "fmt": "14.77"
                },
                "priceHint": 2,
                "currency": "USD",
                "regularMarketPrice": {
-                  "raw": 502.41,
-                  "fmt": "502.41"
+                  "raw": 15.19,
+                  "fmt": "15.19"
                },
                "regularMarketVolume": {
-                  "raw": 11833576,
-                  "fmt": "11.834M",
-                  "longFmt": "11,833,576"
+                  "raw": 31208842,
+                  "fmt": "31.209M",
+                  "longFmt": "31,208,842"
                },
                "isLoading": false,
-               "score": 0.268635,
+               "score": 0.119007,
                "triggerable": true,
                "gmtOffSetMilliseconds": -14400000,
-               "firstTradeDateMilliseconds": 1022160600000,
+               "firstTradeDateMilliseconds": 376929000000,
                "region": "US",
-               "marketState": "POSTPOST",
+               "marketState": "PRE",
                "marketCap": {
-                  "raw": 220961931264,
-                  "fmt": "220.962B",
-                  "longFmt": "220,961,931,264"
+                  "raw": 1657137792,
+                  "fmt": "1.657B",
+                  "longFmt": "1,657,137,792"
                },
                "quoteType": "EQUITY",
                "invalid": false,
-               "symbol": "NFLX",
+               "symbol": "VXRT",
                "language": "en-US",
                "fiftyTwoWeekLowChangePercent": {
-                  "raw": 0.9914777,
-                  "fmt": "99.15%"
+                  "raw": 59.76,
+                  "fmt": "5,976.00%"
                },
                "regularMarketDayRange": {
-                  "raw": "484.219 - 504.5",
-                  "fmt": "484.22 - 504.50"
+                  "raw": "14.77 - 16.87",
+                  "fmt": "14.77 - 16.87"
                },
-               "messageBoardId": "finmb_32012",
+               "messageBoardId": "finmb_37819645",
                "fiftyTwoWeekHigh": {
-                  "raw": 575.37,
-                  "fmt": "575.37"
+                  "raw": 17.49,
+                  "fmt": "17.49"
                },
                "fiftyTwoWeekHighChangePercent": {
-                  "raw": -0.12680535,
-                  "fmt": "-12.68%"
+                  "raw": -0.13150373,
+                  "fmt": "-13.15%"
                },
-               "uuid": "1a1cddac-4d41-374d-b202-739314177b67",
+               "uuid": "4d8f7932-a203-34dc-b099-0c90a8658892",
                "market": "us_market",
                "fiftyTwoWeekLow": {
-                  "raw": 252.28,
-                  "fmt": "252.28"
+                  "raw": 0.25,
+                  "fmt": "0.25"
                },
                "regularMarketChangePercent": {
-                  "raw": 1.9107921,
-                  "fmt": "1.91%"
+                  "raw": -3.5555582,
+                  "fmt": "-3.56%"
                },
                "fullExchangeName": "NasdaqGS",
                "tradeable": false
@@ -14786,105 +14522,105 @@
                "sourceInterval": 15,
                "quoteSourceName": "Delayed Quote",
                "regularMarketOpen": {
-                  "raw": 1519.01,
-                  "fmt": "1,519.01"
+                  "raw": 77.745,
+                  "fmt": "77.75"
                },
                "exchange": "NMS",
                "regularMarketTime": {
-                  "raw": 1595275202,
+                  "raw": 1595275201,
                   "fmt": "4:00PM EDT"
                },
                "fiftyTwoWeekRange": {
-                  "raw": "211.0 - 1794.99",
-                  "fmt": "211.00 - 1,794.99"
+                  "raw": "60.89 - 85.97",
+                  "fmt": "60.89 - 85.97"
                },
                "sharesOutstanding": {
-                  "raw": 185475008,
-                  "fmt": "185.475M",
-                  "longFmt": "185,475,008"
+                  "raw": 1254370048,
+                  "fmt": "1.254B",
+                  "longFmt": "1,254,370,048"
                },
                "regularMarketDayHigh": {
-                  "raw": 1650,
-                  "fmt": "1,650.00"
+                  "raw": 78.94,
+                  "fmt": "78.94"
                },
-               "shortName": "Tesla, Inc.",
-               "longName": "Tesla, Inc.",
+               "shortName": "Gilead Sciences, Inc.",
+               "longName": "Gilead Sciences, Inc.",
                "exchangeTimezoneName": "America/New_York",
                "regularMarketChange": {
-                  "raw": 142.16003,
-                  "fmt": "142.16"
+                  "raw": 0.5699997,
+                  "fmt": "0.57"
                },
                "regularMarketPreviousClose": {
-                  "raw": 1500.84,
-                  "fmt": "1,500.84"
+                  "raw": 77.51,
+                  "fmt": "77.51"
                },
                "fiftyTwoWeekHighChange": {
-                  "raw": -151.98999,
-                  "fmt": "-151.99"
+                  "raw": -7.8899994,
+                  "fmt": "-7.89"
                },
                "exchangeTimezoneShortName": "EDT",
                "fiftyTwoWeekLowChange": {
-                  "raw": 1432,
-                  "fmt": "1,432.00"
+                  "raw": 17.190002,
+                  "fmt": "17.19"
                },
                "exchangeDataDelayedBy": 0,
                "regularMarketDayLow": {
-                  "raw": 1488,
-                  "fmt": "1,488.00"
+                  "raw": 77.3,
+                  "fmt": "77.30"
                },
                "priceHint": 2,
                "currency": "USD",
                "regularMarketPrice": {
-                  "raw": 1643,
-                  "fmt": "1,643.00"
+                  "raw": 78.08,
+                  "fmt": "78.08"
                },
                "regularMarketVolume": {
-                  "raw": 17121367,
-                  "fmt": "17.121M",
-                  "longFmt": "17,121,367"
+                  "raw": 6974382,
+                  "fmt": "6.974M",
+                  "longFmt": "6,974,382"
                },
                "isLoading": false,
-               "score": 0.253208,
+               "score": 0.115015,
                "triggerable": true,
                "gmtOffSetMilliseconds": -14400000,
-               "firstTradeDateMilliseconds": 1277818200000,
+               "firstTradeDateMilliseconds": 696090600000,
                "region": "US",
-               "marketState": "POSTPOST",
+               "marketState": "PRE",
                "marketCap": {
-                  "raw": 304735453184,
-                  "fmt": "304.735B",
-                  "longFmt": "304,735,453,184"
+                  "raw": 97941217280,
+                  "fmt": "97.941B",
+                  "longFmt": "97,941,217,280"
                },
                "quoteType": "EQUITY",
                "invalid": false,
-               "symbol": "TSLA",
+               "symbol": "GILD",
                "language": "en-US",
                "fiftyTwoWeekLowChangePercent": {
-                  "raw": 6.78673,
-                  "fmt": "678.67%"
+                  "raw": 0.28231242,
+                  "fmt": "28.23%"
                },
                "regularMarketDayRange": {
-                  "raw": "1488.0 - 1650.0",
-                  "fmt": "1,488.00 - 1,650.00"
+                  "raw": "77.3 - 78.94",
+                  "fmt": "77.30 - 78.94"
                },
-               "messageBoardId": "finmb_27444752",
+               "messageBoardId": "finmb_29002",
                "fiftyTwoWeekHigh": {
-                  "raw": 1794.99,
-                  "fmt": "1,794.99"
+                  "raw": 85.97,
+                  "fmt": "85.97"
                },
                "fiftyTwoWeekHighChangePercent": {
-                  "raw": -0.08467456,
-                  "fmt": "-8.47%"
+                  "raw": -0.09177619,
+                  "fmt": "-9.18%"
                },
-               "uuid": "ec367bc4-f92c-397c-ac81-bf7b43cffaf7",
+               "uuid": "8659e669-8ec5-3b0f-9929-db5db506231f",
                "market": "us_market",
                "fiftyTwoWeekLow": {
-                  "raw": 211,
-                  "fmt": "211.00"
+                  "raw": 60.89,
+                  "fmt": "60.89"
                },
                "regularMarketChangePercent": {
-                  "raw": 9.472032,
-                  "fmt": "9.47%"
+                  "raw": 0.7353886,
+                  "fmt": "0.74%"
                },
                "fullExchangeName": "NasdaqGS",
                "tradeable": false
