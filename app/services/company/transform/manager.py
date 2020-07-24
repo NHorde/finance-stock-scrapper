@@ -12,9 +12,14 @@ def filter_unique_ticker(state: State):
     :return: Call transform status function
     """
     try:
-        state.output = state.files.company_list[["ticker", 'name']].drop_duplicates()
+        state.files.combined_exchanges.columns = map(str.lower, state.files.combined_exchanges.columns)
+
+        # Following line is dropping duplicates but there's not?
+        state.output = state.files.combined_exchanges[["symbol", 'name', 'lastsale', 'marketcap', 'ipoyear', 'sector', 'industry']].drop_duplicates()
+        state.output.to_csv("test.csv")
         state.events.transform_company_list = 100
-    except Except as e:
+        exit(1)
+    except Exception as e:
         state.output = None
         LOGGER.warning(f"Could not transform company data , error: {e}")
 

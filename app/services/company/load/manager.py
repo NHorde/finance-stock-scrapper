@@ -21,8 +21,7 @@ def read_company_list(state: State):
         state.files.combined_exchanges = pd.concat([state.files.nasdaq,
                                                     state.files.nyse,
                                                     state.files.amex])
-        print(state.files.combined_exchanges.head(10))
-        exit(1)
+
         state.events.load_company_list = 100
     except Exception as e:
         state.files.company_list = None
