@@ -12,7 +12,8 @@ LOGGER = BASE_LOGGER.getChild(__name__)
 timeout_decorator.timeout(10)
 def scrap_company_list(state: State,
                        url: str,
-                       path: str):
+                       path: str,
+                       exchange: str):
     """
     Download the list of all company tickers and store it in the app/data folder
 
@@ -36,7 +37,10 @@ def extract(state: State):
     :return: Status of the extract
     """
     url = "https://dumbstockapi.com/stock?format=csv&countries=US"
-    scrap_company_list(state = state, url=url, path=PATH)
+    exchange = "nasdaq"
+    scrap_company_list(state = state,
+                       url = f"https://old.nasdaq.com/screening/companies-by-name.aspx?letter=0&exchange={exchange}&render=download"
+                       path = PATH)
 
 
 def manager(state: State):
