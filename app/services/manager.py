@@ -1,5 +1,6 @@
 from services.company.manager import manager as manager_etl
 from services.financial.manager import manager as manager_financial_scrapper
+from setup import PATH
 
 from libs.state import State
 from libs.logger import BASE_LOGGER
@@ -28,7 +29,13 @@ def get_ticker_information(state: State):
     :param state: state
     :return: end of the script
     """
-    state = manager_financial_scrapper(state = state)
+
+    for index, row in state.output.iterrows():
+        symbol = row["symbol"]
+        manager_financial_scrapper(state=state, symbol=symbol)
+        state.output[state.output['symbol'] == symbol]["current_price"] = state.ticker.current_price
+
+    state.output.to_csv(f"{PATH}/data/output.csv")
 
     return state
 

@@ -141,7 +141,7 @@ def status_ticker(state: State):
     return state
 
 
-def manager(state: State):
+def manager(state: State, symbol: str):
     """
     :param state:
     :type state: State
@@ -149,7 +149,7 @@ def manager(state: State):
     :return: object
     """
     try:
-        state.ticker.symbol = "MRNA"
+        state.ticker.symbol = symbol
         result = request_html(state)
     except:
         result = state
@@ -164,8 +164,8 @@ def manager(state: State):
     # import json
     # print(json.dumps(state.url, indent=3))
 
-    import json
-    with open('data.txt', 'w') as outfile:
-        json.dump(state.url, outfile, indent=3)
-    return result
+    # import json
+    # with open('data.txt', 'w') as outfile:
+    #     json.dump(state.url, outfile, indent=3)
+    # return result
 
