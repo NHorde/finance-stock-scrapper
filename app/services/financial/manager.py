@@ -157,9 +157,9 @@ def manager(state: State):
     # print(json.dumps(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"], indent=3))
 
     # state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"]
-    result=state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]
-    for i in result:
-        print(i)
+    # result=state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]
+    # for i in result:
+    #     print(i)
     # ["trailingPbRatio"]
     # import json
     # print(json.dumps(state.url, indent=3))

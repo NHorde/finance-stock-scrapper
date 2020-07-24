@@ -9,7 +9,7 @@ import urllib.request
 LOGGER = BASE_LOGGER.getChild(__name__)
 
 
-@timeout_decorator.timeout(3)
+@timeout_decorator.timeout(1)
 def scrap_company_list(state: State,
                        url: str,
                        path: str,
