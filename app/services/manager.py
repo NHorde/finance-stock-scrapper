@@ -43,13 +43,13 @@ def get_ticker_information(state: State):
         except:
             pass
         try:
-            state.output.at[index, 'current_price_to_book'] = state.ticker.current_price_to_book
-            delattr(state.ticker, "current_price_to_book")
+            state.output.at[index, 'current_price_to_book_date'] = state.ticker.current_price_to_book_date
+            delattr(state.ticker, "current_price_to_book_date")
         except:
             pass
         try:
-            state.output.at[index, 'current_price_to_book_date'] = state.ticker.current_price_to_book_date
-            delattr(state.ticker, "current_price_to_book_date")
+            state.output.at[index, 'current_price_to_book'] = state.ticker.current_price_to_book
+            delattr(state.ticker, "current_price_to_book")
         except:
             pass
         try:
