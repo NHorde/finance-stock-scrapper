@@ -26,7 +26,7 @@ def filter_unique_ticker(state: State):
             LOGGER.warning(f"Could not transform company data , error: {e}")
 
     else:
-        state.output = pd.read_csv(f"{PATH}/data/combined_exchanges_sample.csv")
+        state.output = pd.read_csv(f"{PATH}/data/combined_exchanges.csv")
         LOGGER.warning(f"Using old company ticker file")
 
 
