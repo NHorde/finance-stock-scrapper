@@ -94,6 +94,8 @@ def parse_price_to_book_quarter(state: State):
     for i in range(4):
         try:
             state.ticker.price_to_book_list.append(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"][i]["reportedValue"]["fmt"])
+            print(state.ticker.price_to_book_list)
+            exit(1)
         except ValueError:
             state.price_to_book = None
 
@@ -153,19 +155,4 @@ def manager(state: State, symbol: str):
         result = request_html(state)
     except:
         result = state
-
-    # print(json.dumps(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"], indent=3))
-
-    # state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]["reportedValue"]["fmt"]
-    # result=state.url["QuoteTimeSeriesStore"]["timeSeries"]["trailingPbRatio"][2]
-    # for i in result:
-    #     print(i)
-    # ["trailingPbRatio"]
-    # import json
-    # print(json.dumps(state.url, indent=3))
-
-    # import json
-    # with open('data.txt', 'w') as outfile:
-    #     json.dump(state.url, outfile, indent=3)
-    # return result
 

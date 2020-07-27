@@ -1,6 +1,8 @@
 from libs.state import State
 from setup import PATH
+
 import pandas as pd
+
 
 from libs.logger import BASE_LOGGER
 LOGGER = BASE_LOGGER.getChild(__name__)
@@ -26,7 +28,7 @@ def filter_unique_ticker(state: State):
             LOGGER.warning(f"Could not transform company data , error: {e}")
 
     else:
-        state.output = pd.read_csv(f"{PATH}/data/combined_exchanges.csv")
+        state.output = pd.read_csv(f"{PATH}/data/combined_exchanges_sample.csv")
         LOGGER.warning(f"Using old company ticker file")
 
 

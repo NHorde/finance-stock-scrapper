@@ -3,7 +3,9 @@ from services.financial.manager import manager as manager_financial_scrapper
 from setup import PATH
 
 from libs.state import State
+from libs.event import Event
 from libs.logger import BASE_LOGGER
+
 
 LOGGER = BASE_LOGGER.getChild(__name__)
 
@@ -37,41 +39,16 @@ def get_ticker_information(state: State):
     for index, row in state.output.iterrows():
         symbol = row["symbol"]
         manager_financial_scrapper(state=state, symbol=symbol)
-        try:
-            state.output.at[index, 'current_price'] = state.ticker.current_price
-            delattr(state.ticker, "current_price")
-        except:
-            pass
-        try:
-            state.output.at[index, 'current_price_to_book_date'] = state.ticker.current_price_to_book_date
-            delattr(state.ticker, "current_price_to_book_date")
-        except:
-            pass
-        try:
-            state.output.at[index, 'current_price_to_book'] = state.ticker.current_price_to_book
-            delattr(state.ticker, "current_price_to_book")
-        except:
-            pass
-        try:
-            state.output.at[index, 'price_to_book_q1'] = state.ticker.price_to_book_q1
-            delattr(state.ticker, "price_to_book_q1")
-        except:
-            pass
-        try:
-            state.output.at[index, 'price_to_book_q2'] = state.ticker.price_to_book_q2
-            delattr(state.ticker, "price_to_book_q2")
-        except:
-            pass
-        try:
-            state.output.at[index, 'price_to_book_q3'] = state.ticker.price_to_book_q3
-            delattr(state.ticker, "price_to_book_q3")
-        except:
-            pass
-        try:
-            state.output.at[index, 'price_to_book_q4'] = state.ticker.price_to_book_q4
-            delattr(state.ticker, "price_to_book_q4")
-        except:
-            pass
+
+        state.output.at[index, 'current_price'] = state.ticker.current_price
+        state.output.at[index, 'current_price_to_book_date'] = state.ticker.current_price_to_book_date
+        state.output.at[index, 'current_price_to_book'] = state.ticker.current_price_to_book
+        state.output.at[index, 'price_to_book_q1'] = state.ticker.price_to_book_q1
+        state.output.at[index, 'price_to_book_q2'] = state.ticker.price_to_book_q2
+        state.output.at[index, 'price_to_book_q3'] = state.ticker.price_to_book_q3
+        state.output.at[index, 'price_to_book_q4'] = state.ticker.price_to_book_q4
+
+        state.event = Event()
     # for attribut in vars(state.ticker):
     #         delattr(state.ticker, attribut)
 
