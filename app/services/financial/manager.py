@@ -95,11 +95,13 @@ def parse_price_to_book_quarter(state: State):
         try:
             state.ticker.price_to_book_list.append(state.url["QuoteTimeSeriesStore"]["timeSeries"]["quarterlyPbRatio"][i]["reportedValue"]["fmt"])
             print(state.ticker.price_to_book_list)
-            exit(1)
         except ValueError:
-            state.price_to_book = None
-
+            state.ticker.price_to_book_list.append(None)
+            print(state.ticker.price_to_book_list)
+    print('test')
     LOGGER.info(f"{state.ticker.symbol} | Price to book value list: {state.ticker.price_to_book_list}")
+    print(state.ticker.price_to_book_q1)
+    exit(1)
 
     # Scrapping Q1
     try:
