@@ -6,4 +6,3 @@ from services.manager import manager as manager_services
 
 if __name__ == "__main__":
     manager_services()
-
